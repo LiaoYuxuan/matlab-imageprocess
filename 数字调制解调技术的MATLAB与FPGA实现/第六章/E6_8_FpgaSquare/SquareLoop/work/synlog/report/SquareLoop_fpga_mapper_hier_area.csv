@@ -1,0 +1,15 @@
+
+. Module name, LUTS, REGISTERS, SYNC RAMS, MULT18x18/MULT18x18S
+. SquareLoop, 2651, 3517, 1, 3
+.	. LoopFilter, 93, 89, 0, 0
+.	. locklpf, 2528, 3368, 0, 0
+.	.	. locklpf_fir_compiler_v5_0_xst_1_blk00000003, 2528, 3368, 0, 0
+.	.	.	. locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004, 2528, 3368, 0, 0
+.	. mult8_8_u1, 0, 0, 0, 1
+.	.	. mult8_8_mult_gen_v11_2_xst_1_BU2_BU2_1, 0, 0, 0, 1
+.	. mult8_8_u2, 0, 0, 0, 1
+.	.	. mult8_8_mult_gen_v11_2_xst_1_BU2_BU2_0, 0, 0, 0, 1
+.	. mult8_8_u4, 0, 0, 0, 1
+.	.	. mult8_8_mult_gen_v11_2_xst_1_BU2_BU2, 0, 0, 0, 1
+.	. nco, 30, 60, 1, 0
+.	.	. pipe_add_blk00000040, 30, 0, 0, 0

@@ -1,0 +1,14 @@
+C:\Synopsys\fpga_H201303\bin64\c_hdl.exe  -osyn  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_compiler.srs  -top  MskMod  -hdlloga  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.srr  -encrypt  -ngo -preserve_slash_names  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.ngc  -ngo -preserve_slash_names  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.ngc  -ngo -preserve_slash_names  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.ngc  -vhdl  -dspmac -pqdpadd -primux -fixsmult -sdff_counter -infer_seqShift -verification_mode 0  -nram -divnmod  -loadunimacro -encrypt  -pro  -dmgen  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\dm  -lite -ll 2000 -compiler_compatible  -ui -fid2 -ram -sharing on  -autosm -ignore_undefined_lib  -lib work D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.vhd -lib work D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.vhd -lib work D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.vhd -lib work D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\CodeProduce.vhd -lib work D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd
+rc:0 success:1
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_compiler.srs|o|1495427560|82530
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.srr|o|1495427560|6707
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.ngc|i|1495376666|42786
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.ngc|i|1495348420|31513
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.ngc|i|1495348210|31516
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.vhd|i|1495348212|4509
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.vhd|i|1495348422|4492
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.vhd|i|1495376667|4241
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\CodeProduce.vhd|i|1495358058|3127
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd|i|1495376090|3291
+C:\Synopsys\fpga_H201303\bin64\c_hdl.exe|i|1361803150|3834368
+C:\Synopsys\fpga_H201303\bin\c_hdl.exe|i|1361803140|636416

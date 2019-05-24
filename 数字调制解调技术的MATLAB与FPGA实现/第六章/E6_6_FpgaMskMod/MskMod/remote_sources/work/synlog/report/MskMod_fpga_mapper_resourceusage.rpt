@@ -1,0 +1,46 @@
+---------------------------------------
+Resource Usage Report for MskMod 
+
+Mapping to part: xc6slx16ftg256-2
+Cell usage:
+FD              112 uses
+FDC             10 uses
+GND             10 uses
+MUXCY           186 uses
+MUXCY_L         28 uses
+RAMB8BWER       2 uses
+VCC             10 uses
+XORCY           222 uses
+LUT1            16 uses
+LUT2            216 uses
+LUT3            33 uses
+LUT4            59 uses
+LUT5            1 use
+
+I/O ports: 11
+I/O primitives: 11
+IBUF           1 use
+IBUFG          1 use
+OBUF           9 uses
+
+BUFG           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   122 (0%)
+
+RAM/ROM usage summary
+Occupied Block RAM sites (RAMB36) : 2 of 32 (6%)
+
+
+Global Clock Buffers: 1 of 16 (6%)
+
+
+Mapping Summary:
+Total  LUTs: 314 (3%)
+
+Distribution of All Consumed LUTs = LUT1 + LUT2 + LUT3 + LUT4 + LUT5- HLUTNM/2 
+Distribution of All Consumed Luts 314 = 16 + 216 + 33 + 59 + 1- 22/2 
+
+
+ Number of unique control sets:              4
+

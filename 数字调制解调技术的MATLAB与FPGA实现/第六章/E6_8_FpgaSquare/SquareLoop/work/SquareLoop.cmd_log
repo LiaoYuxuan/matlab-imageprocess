@@ -1,0 +1,3 @@
+C:/Synopsys/fpga_H201303/bin/mbin/synplify.exe SquareLoop.prj -tcl SquareLoop_map.tcl 
+C:/Synopsys/fpga_H201303/bin/mbin/synplify.exe -tcl D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/SquareLoop/work/SquareLoop_open_file.tcl 
+xst -intstyle ise -ifn "D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/SquareLoop/work/SquareLoop.xst" -ofn "D:/ModemPrograms/Chapter_6/E6_8_FpgaSquare/SquareLoop/work/SquareLoop.syr" 

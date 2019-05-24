@@ -1,0 +1,59 @@
+INFO:sim:172 - Generating IP...
+Customizing IP...
+Release 14.7 - Xilinx CORE Generator IP GUI Launcher P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Finished Customizing.
+Generating IP...
+XST: HDL Parsing
+XST: HDL Elaboration
+XST: HDL Synthesis
+XST: Advanced HDL Synthesis
+XST: Low Level Synthesis
+Generating Implementation files.
+WARNING:coreutil - WARNING: Default charset GBK not supported, using ISO-8859-1
+   instead
+Generating NGC file.
+Finished Generation.
+Generating IP instantiation template...
+Generating ASY schematic symbol...
+WARNING:sim:192 - Xco Parameter changed from
+   (Coefficient_File,D:/ModemPrograms/Chapter_7/E7_3_DqpskModem/tra_Lpf.coe) to
+   (Coefficient_File,D:\ModemPrograms\Chapter_7\E7_3_DqpskModem\tra_Lpf.coe)
+   during Recustomization.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+Generating SYM schematic symbol for 'fir_lpf'...
+Generating metadata file...
+Generating ISE project...
+XCO file found: fir_lpf.xco
+XMDF file found: fir_lpf_xmdf.tcl
+Adding D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.asy
+-view all -origin_type imported
+Adding D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.ngc
+-view all -origin_type created
+Checking file
+"D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.ngc" for
+project device match ...
+File "D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.ngc"
+device information matches project device.
+Adding D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.sym
+-view all -origin_type imported
+Adding D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.vhd
+-view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.vhd"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding D:/ModemPrograms/Chapter_7/E7_5_FpgaDqpsk/ipcore_dir/tmp/_cg/fir_lpf.vho
+-view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/fir_lpf"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'fir_lpf'.

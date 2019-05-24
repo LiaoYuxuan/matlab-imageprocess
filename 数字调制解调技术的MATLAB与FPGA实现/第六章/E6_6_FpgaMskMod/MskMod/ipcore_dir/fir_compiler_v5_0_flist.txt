@@ -1,0 +1,19 @@
+# Output products list for <fir_compiler_v5_0>
+_xmsgs\
+fir_compiler_v5_0.asy
+fir_compiler_v5_0.gise
+fir_compiler_v5_0.ise
+fir_compiler_v5_0.mif
+fir_compiler_v5_0.ngc
+fir_compiler_v5_0.sym
+fir_compiler_v5_0.v
+fir_compiler_v5_0.veo
+fir_compiler_v5_0.vhd
+fir_compiler_v5_0.vho
+fir_compiler_v5_0.xco
+fir_compiler_v5_0.xise
+fir_compiler_v5_0_flist.txt
+fir_compiler_v5_0_readme.txt
+fir_compiler_v5_0_xdb\tmp\
+fir_compiler_v5_0_xmdf.tcl
+hex_fir_compiler_v5_0.mif

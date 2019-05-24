@@ -1,0 +1,26 @@
+job not found while reading designflow: compile_dm
+job not found while reading designflow: generate_timing_budgets
+job not found while reading designflow: generate_instance_constraints
+
+Starting:    C:\Synopsys\fpga_H201303\bin\mbin\synplify.exe
+Install:     C:\Synopsys\fpga_H201303
+Date:        Mon May 22 12:33:13 2017
+Version:     H-2013.03
+
+Arguments:   -tcl D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/remote_sources/work/MskMod_open_file.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro
+License: synplifypro node-locked 
+Licensed Vendor: All FPGA
+
+
+
+job not found while reading designflow: compile_dm
+job not found while reading designflow: generate_timing_budgets
+job not found while reading designflow: generate_instance_constraints
+
+TCL script complete: "D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/remote_sources/work/MskMod_open_file.tcl"
+exit status=0
+
+License checkin: synplifypro

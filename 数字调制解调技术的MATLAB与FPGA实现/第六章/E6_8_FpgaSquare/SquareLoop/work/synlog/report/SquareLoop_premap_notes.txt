@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: BN362 :|Removing sequential instance blk0000230a of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk0000230b of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk0000230c of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk000022e0 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk000022e4 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk000022e7 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00001beb of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00001be8 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00001b68 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00000db7 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00000021 of view:UNILIB.FD(PRIM) in hierarchy view:nco_lib.nco(_view_1_compressed) because there are no references to its outputs 
+@N: BN225 |Writing default property annotation file D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\work\SquareLoop.sap.

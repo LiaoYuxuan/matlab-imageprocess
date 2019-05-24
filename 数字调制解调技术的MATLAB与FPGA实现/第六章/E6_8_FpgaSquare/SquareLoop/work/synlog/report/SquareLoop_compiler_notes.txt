@@ -1,0 +1,22 @@
+@N|Running in 64-bit mode
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\nco.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\nco..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\nco.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\nco..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\mult8_8.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\mult8_8..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\mult8_8.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\mult8_8..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\locklpf.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\locklpf..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\locklpf.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\locklpf..ndf" 
+@N: CD720 :"C:\Synopsys\fpga_H201303\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\SquareLoop.vhd":30:7:30:16|Top entity is set to SquareLoop.
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\SquareLoop.vhd":30:7:30:16|Synthesizing work.squareloop.behavioral 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\LoopFilter.vhd":30:7:30:16|Synthesizing work.loopfilter.behavioral 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\locklpf.vhd":66:7:66:13|Synthesizing work.locklpf.locklpf_a 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\mult8_8.vhd":43:7:43:13|Synthesizing work.mult8_8.mult8_8_a 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\nco.vhd":43:7:43:9|Synthesizing work.nco.nco_a 
+@N|Running in 64-bit mode
+

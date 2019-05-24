@@ -1,0 +1,57 @@
+%%% protect protected_file
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-layerid|0|-top|SquareLoop|-hasedforngc|-dspmac|-pqdpadd|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-verification_mode|0|-nram|-divnmod|-loadunimacro|-encrypt|-pro|-lite|-ll|2000|-compiler_compatible|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Synopsys\\fpga_H201303\\bin64\\c_vhdl.exe":1361803150
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\location.map":1361850558
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\std.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\snps_haps_pkg.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\std1164.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\numeric.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\umr_capim.vhd":1361803526
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\arith.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\unsigned.vhd":1361803526
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_8_FpgaSquare\\SquareLoop\\ipcore_dir\\locklpf.vhd":1481249196
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_8_FpgaSquare\\SquareLoop\\LoopFilter.vhd":1495428849
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\signed.vhd":1361803524
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_8_FpgaSquare\\SquareLoop\\ipcore_dir\\nco.vhd":1495429342
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_8_FpgaSquare\\SquareLoop\\ipcore_dir\\mult8_8.vhd":1378738482
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_8_FpgaSquare\\SquareLoop\\SquareLoop.vhd":1495428889
+0 "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\locklpf.vhd" vhdl
+1 "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\LoopFilter.vhd" vhdl
+2 "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\nco.vhd" vhdl
+3 "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\mult8_8.vhd" vhdl
+4 "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\SquareLoop.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 2 3 0 1 
+
+# Dependency Lists (Users Of)
+0 4 
+1 4 
+2 4 
+3 4 
+4 -1
+
+# Design Unit to File Association
+arch work locklpf locklpf_a 0
+module work locklpf 0
+arch work loopfilter behavioral 1
+module work loopfilter 1
+arch work nco nco_a 2
+module work nco 2
+arch work mult8_8 mult8_8_a 3
+module work mult8_8 3
+arch work squareloop behavioral 4
+module work squareloop 4
+
+# Unbound Instances to File Association
+inst work locklpf wrapped_locklpf 0
+inst work nco wrapped_nco 2
+inst work mult8_8 wrapped_mult8_8 3
+
+
+# Configuration files used

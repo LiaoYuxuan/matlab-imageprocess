@@ -1,0 +1,5 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: BN362 :|Removing sequential instance blk00000003 of view:UNILIB.FD(PRIM) in hierarchy view:dds3m_lib.dds3m(_view_1_compressed) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00000003 of view:UNILIB.FD(PRIM) in hierarchy view:dds250k_lib.dds250k(_view_1_compressed) because there are no references to its outputs 
+@N: BN225 |Writing default property annotation file D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.sap.

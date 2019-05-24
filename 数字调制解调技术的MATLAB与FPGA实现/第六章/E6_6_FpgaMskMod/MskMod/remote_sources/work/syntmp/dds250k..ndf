@@ -1,0 +1,2376 @@
+(edif dds250k
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2017 5 22 12 32 36)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -secure -bd paren -w D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.ngc syntmp\dds250k..ndf ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell VCC
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port P
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell GND
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port G
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell FD
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port C
+              (direction INPUT)
+            )
+            (port D
+              (direction INPUT)
+            )
+            (port Q
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT2
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell MUXCY
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port CI
+              (direction INPUT)
+            )
+            (port DI
+              (direction INPUT)
+            )
+            (port S
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell XORCY
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port CI
+              (direction INPUT)
+            )
+            (port LI
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell RAMB8BWER
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port RSTBRST
+              (direction INPUT)
+            )
+            (port ENBRDEN
+              (direction INPUT)
+            )
+            (port REGCEA
+              (direction INPUT)
+            )
+            (port ENAWREN
+              (direction INPUT)
+            )
+            (port CLKAWRCLK
+              (direction INPUT)
+            )
+            (port CLKBRDCLK
+              (direction INPUT)
+            )
+            (port REGCEBREGCE
+              (direction INPUT)
+            )
+            (port RSTA
+              (direction INPUT)
+            )
+            (port (array (rename WEAWEL "WEAWEL(1:0)") 2)
+              (direction INPUT))
+            (port (array (rename DOADO "DOADO(15:0)") 16)
+              (direction OUTPUT))
+            (port (array (rename DOPADOP "DOPADOP(1:0)") 2)
+              (direction OUTPUT))
+            (port (array (rename DOPBDOP "DOPBDOP(1:0)") 2)
+              (direction OUTPUT))
+            (port (array (rename WEBWEU "WEBWEU(1:0)") 2)
+              (direction INPUT))
+            (port (array (rename ADDRAWRADDR "ADDRAWRADDR(12:0)") 13)
+              (direction INPUT))
+            (port (array (rename DIPBDIP "DIPBDIP(1:0)") 2)
+              (direction INPUT))
+            (port (array (rename DIBDI "DIBDI(15:0)") 16)
+              (direction INPUT))
+            (port (array (rename DIADI "DIADI(15:0)") 16)
+              (direction INPUT))
+            (port (array (rename ADDRBRDADDR "ADDRBRDADDR(12:0)") 13)
+              (direction INPUT))
+            (port (array (rename DOBDO "DOBDO(15:0)") 16)
+              (direction OUTPUT))
+            (port (array (rename DIPADIP "DIPADIP(1:0)") 2)
+              (direction INPUT))
+          )
+      )
+    )
+  )
+
+  (library dds250k_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell (rename pipe_add_blk00000020 "pipe_add")
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port (array (rename A "A(27:0)") 28)
+              (direction INPUT))
+            (port (array (rename B "B(27:0)") 28)
+              (direction INPUT))
+            (port (array (rename C_IN "C_IN(0:0)") 1)
+              (direction INPUT))
+            (port (array (rename C_OUT "C_OUT(0:0)") 1)
+              (direction OUTPUT))
+            (port (array (rename SUM "SUM(27:0)") 28)
+              (direction OUTPUT))
+          )
+          (contents
+            (instance blk00000021
+              (viewRef view_1 (cellRef GND (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000022
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000023
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000024
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000025
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000026
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000027
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000028
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000029
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000002a
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000002b
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000002c
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000002d
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000002e
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000002f
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000030
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000031
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000032
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000033
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000034
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000035
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000036
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000037
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000038
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000039
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000003a
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000003b
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000003c
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000003d
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000003e
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000003f
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000040
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000041
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000042
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000043
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000044
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000045
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000046
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000047
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000048
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000049
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000004a
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000004b
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000004c
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000004d
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000004e
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000004f
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000050
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000051
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000052
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000053
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000054
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000055
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000056
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000057
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000058
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000059
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000005a
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000005b
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000005c
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000005d
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000005e
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000005f
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000060
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000061
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000062
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000063
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000064
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000065
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000066
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000067
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000068
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000069
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000006a
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000006b
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000006c
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000006d
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk0000006e
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk0000006f
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000070
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000071
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000072
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000073
+              (viewRef view_1 (cellRef LUT2 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "6") (owner "Xilinx"))
+            )
+            (instance blk00000074
+              (viewRef view_1 (cellRef MUXCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000075
+              (viewRef view_1 (cellRef XORCY (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000003d
+              (joined
+                (portRef (member A 0))
+                (portRef DI (instanceRef blk00000074))
+                (portRef I1 (instanceRef blk00000073))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000003e
+              (joined
+                (portRef (member A 1))
+                (portRef DI (instanceRef blk00000071))
+                (portRef I1 (instanceRef blk00000070))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000003f
+              (joined
+                (portRef (member A 2))
+                (portRef DI (instanceRef blk0000006e))
+                (portRef I1 (instanceRef blk0000006d))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000040
+              (joined
+                (portRef (member A 3))
+                (portRef DI (instanceRef blk0000006b))
+                (portRef I1 (instanceRef blk0000006a))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000041
+              (joined
+                (portRef (member A 4))
+                (portRef DI (instanceRef blk00000068))
+                (portRef I1 (instanceRef blk00000067))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000042
+              (joined
+                (portRef (member A 5))
+                (portRef DI (instanceRef blk00000065))
+                (portRef I1 (instanceRef blk00000064))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000043
+              (joined
+                (portRef (member A 6))
+                (portRef DI (instanceRef blk00000062))
+                (portRef I1 (instanceRef blk00000061))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000044
+              (joined
+                (portRef (member A 7))
+                (portRef DI (instanceRef blk0000005f))
+                (portRef I1 (instanceRef blk0000005e))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000045
+              (joined
+                (portRef (member A 8))
+                (portRef DI (instanceRef blk0000005c))
+                (portRef I1 (instanceRef blk0000005b))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000046
+              (joined
+                (portRef (member A 9))
+                (portRef DI (instanceRef blk00000059))
+                (portRef I1 (instanceRef blk00000058))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000047
+              (joined
+                (portRef (member A 10))
+                (portRef DI (instanceRef blk00000056))
+                (portRef I1 (instanceRef blk00000055))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000048
+              (joined
+                (portRef (member A 11))
+                (portRef DI (instanceRef blk00000053))
+                (portRef I1 (instanceRef blk00000052))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000049
+              (joined
+                (portRef (member A 12))
+                (portRef DI (instanceRef blk00000050))
+                (portRef I1 (instanceRef blk0000004f))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000004a
+              (joined
+                (portRef (member A 13))
+                (portRef DI (instanceRef blk0000004d))
+                (portRef I1 (instanceRef blk0000004c))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000004b
+              (joined
+                (portRef (member A 14))
+                (portRef DI (instanceRef blk0000004a))
+                (portRef I1 (instanceRef blk00000049))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000004c
+              (joined
+                (portRef (member A 15))
+                (portRef DI (instanceRef blk00000047))
+                (portRef I1 (instanceRef blk00000046))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000004d
+              (joined
+                (portRef (member A 16))
+                (portRef DI (instanceRef blk00000044))
+                (portRef I1 (instanceRef blk00000043))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000004e
+              (joined
+                (portRef (member A 17))
+                (portRef DI (instanceRef blk00000041))
+                (portRef I1 (instanceRef blk00000040))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000004f
+              (joined
+                (portRef (member A 18))
+                (portRef DI (instanceRef blk0000003e))
+                (portRef I1 (instanceRef blk0000003d))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000050
+              (joined
+                (portRef (member A 19))
+                (portRef DI (instanceRef blk0000003b))
+                (portRef I1 (instanceRef blk0000003a))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000051
+              (joined
+                (portRef (member A 20))
+                (portRef DI (instanceRef blk00000038))
+                (portRef I1 (instanceRef blk00000037))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000052
+              (joined
+                (portRef (member A 21))
+                (portRef DI (instanceRef blk00000035))
+                (portRef I1 (instanceRef blk00000034))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000053
+              (joined
+                (portRef (member A 22))
+                (portRef DI (instanceRef blk00000032))
+                (portRef I1 (instanceRef blk00000031))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000054
+              (joined
+                (portRef (member A 23))
+                (portRef DI (instanceRef blk0000002f))
+                (portRef I1 (instanceRef blk0000002e))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000055
+              (joined
+                (portRef (member A 24))
+                (portRef DI (instanceRef blk0000002c))
+                (portRef I1 (instanceRef blk0000002b))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000056
+              (joined
+                (portRef (member A 25))
+                (portRef DI (instanceRef blk00000029))
+                (portRef I1 (instanceRef blk00000028))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000057
+              (joined
+                (portRef (member A 26))
+                (portRef DI (instanceRef blk00000026))
+                (portRef I1 (instanceRef blk00000025))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000058
+              (joined
+                (portRef (member A 27))
+                (portRef DI (instanceRef blk00000023))
+                (portRef I1 (instanceRef blk00000022))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000059
+              (joined
+                (portRef (member B 0))
+                (portRef I0 (instanceRef blk00000073))
+              )
+            )
+            (net sig0000005a
+              (joined
+                (portRef (member B 1))
+                (portRef I0 (instanceRef blk00000070))
+              )
+            )
+            (net sig0000005b
+              (joined
+                (portRef (member B 2))
+                (portRef I0 (instanceRef blk0000006d))
+              )
+            )
+            (net sig0000005c
+              (joined
+                (portRef (member B 3))
+                (portRef I0 (instanceRef blk0000006a))
+              )
+            )
+            (net sig0000005d
+              (joined
+                (portRef (member B 4))
+                (portRef I0 (instanceRef blk00000067))
+              )
+            )
+            (net sig0000005e
+              (joined
+                (portRef (member B 5))
+                (portRef I0 (instanceRef blk00000064))
+              )
+            )
+            (net sig0000005f
+              (joined
+                (portRef (member B 6))
+                (portRef I0 (instanceRef blk00000061))
+              )
+            )
+            (net sig00000060
+              (joined
+                (portRef (member B 7))
+                (portRef I0 (instanceRef blk0000005e))
+              )
+            )
+            (net sig00000061
+              (joined
+                (portRef (member B 8))
+                (portRef I0 (instanceRef blk0000005b))
+              )
+            )
+            (net sig00000062
+              (joined
+                (portRef (member B 9))
+                (portRef I0 (instanceRef blk00000058))
+              )
+            )
+            (net sig00000063
+              (joined
+                (portRef (member B 10))
+                (portRef I0 (instanceRef blk00000055))
+              )
+            )
+            (net sig00000064
+              (joined
+                (portRef (member B 11))
+                (portRef I0 (instanceRef blk00000052))
+              )
+            )
+            (net sig00000065
+              (joined
+                (portRef (member B 12))
+                (portRef I0 (instanceRef blk0000004f))
+              )
+            )
+            (net sig00000066
+              (joined
+                (portRef (member B 13))
+                (portRef I0 (instanceRef blk0000004c))
+              )
+            )
+            (net sig00000067
+              (joined
+                (portRef (member B 14))
+                (portRef I0 (instanceRef blk00000049))
+              )
+            )
+            (net sig00000068
+              (joined
+                (portRef (member B 15))
+                (portRef I0 (instanceRef blk00000046))
+              )
+            )
+            (net sig00000069
+              (joined
+                (portRef (member B 16))
+                (portRef I0 (instanceRef blk00000043))
+              )
+            )
+            (net sig0000006a
+              (joined
+                (portRef (member B 17))
+                (portRef I0 (instanceRef blk00000040))
+              )
+            )
+            (net sig0000006b
+              (joined
+                (portRef (member B 18))
+                (portRef I0 (instanceRef blk0000003d))
+              )
+            )
+            (net sig0000006c
+              (joined
+                (portRef (member B 19))
+                (portRef I0 (instanceRef blk0000003a))
+              )
+            )
+            (net sig0000006d
+              (joined
+                (portRef (member B 20))
+                (portRef I0 (instanceRef blk00000037))
+              )
+            )
+            (net sig0000006e
+              (joined
+                (portRef (member B 21))
+                (portRef I0 (instanceRef blk00000034))
+              )
+            )
+            (net sig0000006f
+              (joined
+                (portRef (member B 22))
+                (portRef I0 (instanceRef blk00000031))
+              )
+            )
+            (net sig00000070
+              (joined
+                (portRef (member B 23))
+                (portRef I0 (instanceRef blk0000002e))
+              )
+            )
+            (net sig00000071
+              (joined
+                (portRef (member B 24))
+                (portRef I0 (instanceRef blk0000002b))
+              )
+            )
+            (net sig00000072
+              (joined
+                (portRef (member B 25))
+                (portRef I0 (instanceRef blk00000028))
+              )
+            )
+            (net sig00000073
+              (joined
+                (portRef (member B 26))
+                (portRef I0 (instanceRef blk00000025))
+              )
+            )
+            (net sig00000074
+              (joined
+                (portRef (member B 27))
+                (portRef I0 (instanceRef blk00000022))
+              )
+            )
+            (net sig00000075
+              (joined
+                (portRef (member SUM 0))
+                (portRef O (instanceRef blk00000075))
+              )
+            )
+            (net sig00000076
+              (joined
+                (portRef (member SUM 1))
+                (portRef O (instanceRef blk00000072))
+              )
+            )
+            (net sig00000077
+              (joined
+                (portRef (member SUM 2))
+                (portRef O (instanceRef blk0000006f))
+              )
+            )
+            (net sig00000078
+              (joined
+                (portRef (member SUM 3))
+                (portRef O (instanceRef blk0000006c))
+              )
+            )
+            (net sig00000079
+              (joined
+                (portRef (member SUM 4))
+                (portRef O (instanceRef blk00000069))
+              )
+            )
+            (net sig0000007a
+              (joined
+                (portRef (member SUM 5))
+                (portRef O (instanceRef blk00000066))
+              )
+            )
+            (net sig0000007b
+              (joined
+                (portRef (member SUM 6))
+                (portRef O (instanceRef blk00000063))
+              )
+            )
+            (net sig0000007c
+              (joined
+                (portRef (member SUM 7))
+                (portRef O (instanceRef blk00000060))
+              )
+            )
+            (net sig0000007d
+              (joined
+                (portRef (member SUM 8))
+                (portRef O (instanceRef blk0000005d))
+              )
+            )
+            (net sig0000007e
+              (joined
+                (portRef (member SUM 9))
+                (portRef O (instanceRef blk0000005a))
+              )
+            )
+            (net sig0000007f
+              (joined
+                (portRef (member SUM 10))
+                (portRef O (instanceRef blk00000057))
+              )
+            )
+            (net sig00000080
+              (joined
+                (portRef (member SUM 11))
+                (portRef O (instanceRef blk00000054))
+              )
+            )
+            (net sig00000081
+              (joined
+                (portRef (member SUM 12))
+                (portRef O (instanceRef blk00000051))
+              )
+            )
+            (net sig00000082
+              (joined
+                (portRef (member SUM 13))
+                (portRef O (instanceRef blk0000004e))
+              )
+            )
+            (net sig00000083
+              (joined
+                (portRef (member SUM 14))
+                (portRef O (instanceRef blk0000004b))
+              )
+            )
+            (net sig00000084
+              (joined
+                (portRef (member SUM 15))
+                (portRef O (instanceRef blk00000048))
+              )
+            )
+            (net sig00000085
+              (joined
+                (portRef (member SUM 16))
+                (portRef O (instanceRef blk00000045))
+              )
+            )
+            (net sig00000086
+              (joined
+                (portRef (member SUM 17))
+                (portRef O (instanceRef blk00000042))
+              )
+            )
+            (net sig00000087
+              (joined
+                (portRef (member SUM 18))
+                (portRef O (instanceRef blk0000003f))
+              )
+            )
+            (net sig00000088
+              (joined
+                (portRef (member SUM 19))
+                (portRef O (instanceRef blk0000003c))
+              )
+            )
+            (net sig00000089
+              (joined
+                (portRef (member SUM 20))
+                (portRef O (instanceRef blk00000039))
+              )
+            )
+            (net sig0000008a
+              (joined
+                (portRef (member SUM 21))
+                (portRef O (instanceRef blk00000036))
+              )
+            )
+            (net sig0000008b
+              (joined
+                (portRef (member SUM 22))
+                (portRef O (instanceRef blk00000033))
+              )
+            )
+            (net sig0000008c
+              (joined
+                (portRef (member SUM 23))
+                (portRef O (instanceRef blk00000030))
+              )
+            )
+            (net sig0000008d
+              (joined
+                (portRef (member SUM 24))
+                (portRef O (instanceRef blk0000002d))
+              )
+            )
+            (net sig0000008e
+              (joined
+                (portRef (member SUM 25))
+                (portRef O (instanceRef blk0000002a))
+              )
+            )
+            (net sig0000008f
+              (joined
+                (portRef (member SUM 26))
+                (portRef O (instanceRef blk00000027))
+              )
+            )
+            (net sig00000090
+              (joined
+                (portRef (member SUM 27))
+                (portRef O (instanceRef blk00000024))
+              )
+            )
+            (net sig00000091
+              (joined
+                (portRef G (instanceRef blk00000021))
+                (portRef CI (instanceRef blk00000023))
+                (portRef CI (instanceRef blk00000024))
+              )
+            )
+            (net sig00000092
+              (joined
+                (portRef O (instanceRef blk00000022))
+                (portRef S (instanceRef blk00000023))
+                (portRef LI (instanceRef blk00000024))
+              )
+            )
+            (net sig00000093
+              (joined
+                (portRef O (instanceRef blk00000023))
+                (portRef CI (instanceRef blk00000026))
+                (portRef CI (instanceRef blk00000027))
+              )
+            )
+            (net sig00000094
+              (joined
+                (portRef O (instanceRef blk00000025))
+                (portRef S (instanceRef blk00000026))
+                (portRef LI (instanceRef blk00000027))
+              )
+            )
+            (net sig00000095
+              (joined
+                (portRef O (instanceRef blk00000026))
+                (portRef CI (instanceRef blk00000029))
+                (portRef CI (instanceRef blk0000002a))
+              )
+            )
+            (net sig00000096
+              (joined
+                (portRef O (instanceRef blk00000028))
+                (portRef S (instanceRef blk00000029))
+                (portRef LI (instanceRef blk0000002a))
+              )
+            )
+            (net sig00000097
+              (joined
+                (portRef O (instanceRef blk00000029))
+                (portRef CI (instanceRef blk0000002c))
+                (portRef CI (instanceRef blk0000002d))
+              )
+            )
+            (net sig00000098
+              (joined
+                (portRef O (instanceRef blk0000002b))
+                (portRef S (instanceRef blk0000002c))
+                (portRef LI (instanceRef blk0000002d))
+              )
+            )
+            (net sig00000099
+              (joined
+                (portRef O (instanceRef blk0000002c))
+                (portRef CI (instanceRef blk0000002f))
+                (portRef CI (instanceRef blk00000030))
+              )
+            )
+            (net sig0000009a
+              (joined
+                (portRef O (instanceRef blk0000002e))
+                (portRef S (instanceRef blk0000002f))
+                (portRef LI (instanceRef blk00000030))
+              )
+            )
+            (net sig0000009b
+              (joined
+                (portRef O (instanceRef blk0000002f))
+                (portRef CI (instanceRef blk00000032))
+                (portRef CI (instanceRef blk00000033))
+              )
+            )
+            (net sig0000009c
+              (joined
+                (portRef O (instanceRef blk00000031))
+                (portRef S (instanceRef blk00000032))
+                (portRef LI (instanceRef blk00000033))
+              )
+            )
+            (net sig0000009d
+              (joined
+                (portRef O (instanceRef blk00000032))
+                (portRef CI (instanceRef blk00000035))
+                (portRef CI (instanceRef blk00000036))
+              )
+            )
+            (net sig0000009e
+              (joined
+                (portRef O (instanceRef blk00000034))
+                (portRef S (instanceRef blk00000035))
+                (portRef LI (instanceRef blk00000036))
+              )
+            )
+            (net sig0000009f
+              (joined
+                (portRef O (instanceRef blk00000035))
+                (portRef CI (instanceRef blk00000038))
+                (portRef CI (instanceRef blk00000039))
+              )
+            )
+            (net sig000000a0
+              (joined
+                (portRef O (instanceRef blk00000037))
+                (portRef S (instanceRef blk00000038))
+                (portRef LI (instanceRef blk00000039))
+              )
+            )
+            (net sig000000a1
+              (joined
+                (portRef O (instanceRef blk00000038))
+                (portRef CI (instanceRef blk0000003b))
+                (portRef CI (instanceRef blk0000003c))
+              )
+            )
+            (net sig000000a2
+              (joined
+                (portRef O (instanceRef blk0000003a))
+                (portRef S (instanceRef blk0000003b))
+                (portRef LI (instanceRef blk0000003c))
+              )
+            )
+            (net sig000000a3
+              (joined
+                (portRef O (instanceRef blk0000003b))
+                (portRef CI (instanceRef blk0000003e))
+                (portRef CI (instanceRef blk0000003f))
+              )
+            )
+            (net sig000000a4
+              (joined
+                (portRef O (instanceRef blk0000003d))
+                (portRef S (instanceRef blk0000003e))
+                (portRef LI (instanceRef blk0000003f))
+              )
+            )
+            (net sig000000a5
+              (joined
+                (portRef O (instanceRef blk0000003e))
+                (portRef CI (instanceRef blk00000041))
+                (portRef CI (instanceRef blk00000042))
+              )
+            )
+            (net sig000000a6
+              (joined
+                (portRef O (instanceRef blk00000040))
+                (portRef S (instanceRef blk00000041))
+                (portRef LI (instanceRef blk00000042))
+              )
+            )
+            (net sig000000a7
+              (joined
+                (portRef O (instanceRef blk00000041))
+                (portRef CI (instanceRef blk00000044))
+                (portRef CI (instanceRef blk00000045))
+              )
+            )
+            (net sig000000a8
+              (joined
+                (portRef O (instanceRef blk00000043))
+                (portRef S (instanceRef blk00000044))
+                (portRef LI (instanceRef blk00000045))
+              )
+            )
+            (net sig000000a9
+              (joined
+                (portRef O (instanceRef blk00000044))
+                (portRef CI (instanceRef blk00000047))
+                (portRef CI (instanceRef blk00000048))
+              )
+            )
+            (net sig000000aa
+              (joined
+                (portRef O (instanceRef blk00000046))
+                (portRef S (instanceRef blk00000047))
+                (portRef LI (instanceRef blk00000048))
+              )
+            )
+            (net sig000000ab
+              (joined
+                (portRef O (instanceRef blk00000047))
+                (portRef CI (instanceRef blk0000004a))
+                (portRef CI (instanceRef blk0000004b))
+              )
+            )
+            (net sig000000ac
+              (joined
+                (portRef O (instanceRef blk00000049))
+                (portRef S (instanceRef blk0000004a))
+                (portRef LI (instanceRef blk0000004b))
+              )
+            )
+            (net sig000000ad
+              (joined
+                (portRef O (instanceRef blk0000004a))
+                (portRef CI (instanceRef blk0000004d))
+                (portRef CI (instanceRef blk0000004e))
+              )
+            )
+            (net sig000000ae
+              (joined
+                (portRef O (instanceRef blk0000004c))
+                (portRef S (instanceRef blk0000004d))
+                (portRef LI (instanceRef blk0000004e))
+              )
+            )
+            (net sig000000af
+              (joined
+                (portRef O (instanceRef blk0000004d))
+                (portRef CI (instanceRef blk00000050))
+                (portRef CI (instanceRef blk00000051))
+              )
+            )
+            (net sig000000b0
+              (joined
+                (portRef O (instanceRef blk0000004f))
+                (portRef S (instanceRef blk00000050))
+                (portRef LI (instanceRef blk00000051))
+              )
+            )
+            (net sig000000b1
+              (joined
+                (portRef O (instanceRef blk00000050))
+                (portRef CI (instanceRef blk00000053))
+                (portRef CI (instanceRef blk00000054))
+              )
+            )
+            (net sig000000b2
+              (joined
+                (portRef O (instanceRef blk00000052))
+                (portRef S (instanceRef blk00000053))
+                (portRef LI (instanceRef blk00000054))
+              )
+            )
+            (net sig000000b3
+              (joined
+                (portRef O (instanceRef blk00000053))
+                (portRef CI (instanceRef blk00000056))
+                (portRef CI (instanceRef blk00000057))
+              )
+            )
+            (net sig000000b4
+              (joined
+                (portRef O (instanceRef blk00000055))
+                (portRef S (instanceRef blk00000056))
+                (portRef LI (instanceRef blk00000057))
+              )
+            )
+            (net sig000000b5
+              (joined
+                (portRef O (instanceRef blk00000056))
+                (portRef CI (instanceRef blk00000059))
+                (portRef CI (instanceRef blk0000005a))
+              )
+            )
+            (net sig000000b6
+              (joined
+                (portRef O (instanceRef blk00000058))
+                (portRef S (instanceRef blk00000059))
+                (portRef LI (instanceRef blk0000005a))
+              )
+            )
+            (net sig000000b7
+              (joined
+                (portRef O (instanceRef blk00000059))
+                (portRef CI (instanceRef blk0000005c))
+                (portRef CI (instanceRef blk0000005d))
+              )
+            )
+            (net sig000000b8
+              (joined
+                (portRef O (instanceRef blk0000005b))
+                (portRef S (instanceRef blk0000005c))
+                (portRef LI (instanceRef blk0000005d))
+              )
+            )
+            (net sig000000b9
+              (joined
+                (portRef O (instanceRef blk0000005c))
+                (portRef CI (instanceRef blk0000005f))
+                (portRef CI (instanceRef blk00000060))
+              )
+            )
+            (net sig000000ba
+              (joined
+                (portRef O (instanceRef blk0000005e))
+                (portRef S (instanceRef blk0000005f))
+                (portRef LI (instanceRef blk00000060))
+              )
+            )
+            (net sig000000bb
+              (joined
+                (portRef O (instanceRef blk0000005f))
+                (portRef CI (instanceRef blk00000062))
+                (portRef CI (instanceRef blk00000063))
+              )
+            )
+            (net sig000000bc
+              (joined
+                (portRef O (instanceRef blk00000061))
+                (portRef S (instanceRef blk00000062))
+                (portRef LI (instanceRef blk00000063))
+              )
+            )
+            (net sig000000bd
+              (joined
+                (portRef O (instanceRef blk00000062))
+                (portRef CI (instanceRef blk00000065))
+                (portRef CI (instanceRef blk00000066))
+              )
+            )
+            (net sig000000be
+              (joined
+                (portRef O (instanceRef blk00000064))
+                (portRef S (instanceRef blk00000065))
+                (portRef LI (instanceRef blk00000066))
+              )
+            )
+            (net sig000000bf
+              (joined
+                (portRef O (instanceRef blk00000065))
+                (portRef CI (instanceRef blk00000068))
+                (portRef CI (instanceRef blk00000069))
+              )
+            )
+            (net sig000000c0
+              (joined
+                (portRef O (instanceRef blk00000067))
+                (portRef S (instanceRef blk00000068))
+                (portRef LI (instanceRef blk00000069))
+              )
+            )
+            (net sig000000c1
+              (joined
+                (portRef O (instanceRef blk00000068))
+                (portRef CI (instanceRef blk0000006b))
+                (portRef CI (instanceRef blk0000006c))
+              )
+            )
+            (net sig000000c2
+              (joined
+                (portRef O (instanceRef blk0000006a))
+                (portRef S (instanceRef blk0000006b))
+                (portRef LI (instanceRef blk0000006c))
+              )
+            )
+            (net sig000000c3
+              (joined
+                (portRef O (instanceRef blk0000006b))
+                (portRef CI (instanceRef blk0000006e))
+                (portRef CI (instanceRef blk0000006f))
+              )
+            )
+            (net sig000000c4
+              (joined
+                (portRef O (instanceRef blk0000006d))
+                (portRef S (instanceRef blk0000006e))
+                (portRef LI (instanceRef blk0000006f))
+              )
+            )
+            (net sig000000c5
+              (joined
+                (portRef O (instanceRef blk0000006e))
+                (portRef CI (instanceRef blk00000071))
+                (portRef CI (instanceRef blk00000072))
+              )
+            )
+            (net sig000000c6
+              (joined
+                (portRef O (instanceRef blk00000070))
+                (portRef S (instanceRef blk00000071))
+                (portRef LI (instanceRef blk00000072))
+              )
+            )
+            (net sig000000c7
+              (joined
+                (portRef O (instanceRef blk00000071))
+                (portRef CI (instanceRef blk00000074))
+                (portRef CI (instanceRef blk00000075))
+              )
+            )
+            (net sig000000c8
+              (joined
+                (portRef O (instanceRef blk00000073))
+                (portRef S (instanceRef blk00000074))
+                (portRef LI (instanceRef blk00000075))
+              )
+            )
+            (net sig000000c9
+              (joined
+                (portRef O (instanceRef blk00000074))
+                (portRef (member C_OUT 0))
+              )
+            )
+          )
+      )
+    )
+    (cell dds250k
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port clk
+              (direction INPUT)
+            )
+            (port (array (rename cosine "cosine(7:0)") 8)
+              (direction OUTPUT))
+            (port (array (rename sine "sine(7:0)") 8)
+              (direction OUTPUT))
+            (designator "6slx16ftg256-2")
+            (property TYPE (string "dds250k") (owner "Xilinx"))
+            (property BUS_INFO (string "8:OUTPUT:cosine<7:0>") (owner "Xilinx"))
+            (property BUS_INFO (string "8:OUTPUT:sine<7:0>") (owner "Xilinx"))
+            (property X_CORE_INFO (string "dds_compiler_v4_0, Xilinx CORE Generator 14.7") (owner "Xilinx"))
+            (property CHECK_LICENSE_TYPE (string "dds250k,dds_compiler_v4_0,{}") (owner "Xilinx"))
+            (property CORE_GENERATION_INFO (string "dds250k,dds_compiler_v4_0,{c_accumulator_width=28,c_amplitude=0,c_channels=1,c_has_ce=0,c_has_channel_index=0,c_has_phase_out=0,c_has_phasegen=1,c_has_rdy=0,c_has_rfd=0,c_has_sclr=0,c_has_sincos=1,c_latency=-1,c_mem_type=1,c_negative_cosine=0,c_negative_sine=0,c_noise_shaping=0,c_optimise_goal=0,c_output_width=8,c_outputs_required=2,c_phase_angle_width=8,c_phase_increment=2,c_phase_increment_value=100000000000000000000_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0,c_phase_offset=0,c_phase_offset_value=0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0,c_por_mode=0,c_use_dsp48=0,c_xdevicefamily=spartan6}") (owner "Xilinx"))
+            (property SHREG_MIN_SIZE (string "-1") (owner "Xilinx"))
+            (property SHREG_EXTRACT_NGC (string "Yes") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "dds250k_dds250k") (owner "Xilinx"))
+          )
+          (contents
+            (instance blk00000001
+              (viewRef view_1 (cellRef VCC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000002
+              (viewRef view_1 (cellRef GND (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance blk00000003
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000004
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000005
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000006
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000007
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000008
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000009
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000000a
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000000b
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000000c
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000000d
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000000e
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000000f
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000010
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000011
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000012
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000013
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000014
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000015
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000016
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000017
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000018
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000019
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000001a
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000001b
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000001c
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000001d
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000001e
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk0000001f
+              (viewRef view_1 (cellRef FD (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "0") (owner "Xilinx"))
+            )
+            (instance blk00000020
+              (viewRef view_1 (cellRef pipe_add_blk00000020 (libraryRef dds250k_lib)))
+              (property BUS_INFO (string "28:INPUT:A<27:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "28:INPUT:B<27:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "1:INPUT:C_IN<0:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "1:OUTPUT:C_OUT<0:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "28:OUTPUT:SUM<27:0>") (owner "Xilinx"))
+              (property OPTIMIZE (string "OFF") (owner "Xilinx"))
+              (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+              (property NLW_MACRO_TAG (integer 1) (owner "Xilinx"))
+              (property NLW_MACRO_ALIAS (string "pipe_add_blk00000020") (owner "Xilinx"))
+            )
+            (instance blk00000076
+              (viewRef view_1 (cellRef RAMB8BWER (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property BUS_INFO (string "13:INPUT:ADDRAWRADDR<12:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "13:INPUT:ADDRBRDADDR<12:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "2:OUTPUT:DOPADOP<1:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "2:OUTPUT:DOPBDOP<1:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "2:INPUT:DIPBDIP<1:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "2:INPUT:DIPADIP<1:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "2:INPUT:WEAWEL<1:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "2:INPUT:WEBWEU<1:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "16:OUTPUT:DOADO<15:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "16:INPUT:DIBDI<15:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "16:INPUT:DIADI<15:0>") (owner "Xilinx"))
+              (property BUS_INFO (string "16:OUTPUT:DOBDO<15:0>") (owner "Xilinx"))
+              (property INIT_00 (string "585653514F4C4A4745423F3D3A3734322F2C292623201D1A1714110E0B080502") (owner "Xilinx"))
+              (property INIT_01 (string "7E7E7E7E7D7D7C7C7B7B7A7978777675747371706E6D6B6A68666462605E5C5A") (owner "Xilinx"))
+              (property INIT_02 (string "5A5C5E60626466686A6B6D6E7071737475767778797A7B7B7C7C7D7D7E7E7E7E") (owner "Xilinx"))
+              (property INIT_03 (string "0205080B0E1114171A1D202326292C2F3234373A3D3F4245474A4C4F51535658") (owner "Xilinx"))
+              (property INIT_04 (string "A8AAADAFB1B4B6B9BBBEC1C3C6C9CCCED1D4D7DADDE0E3E6E9ECEFF2F5F8FBFE") (owner "Xilinx"))
+              (property INIT_05 (string "82828282838384848585868788898A8B8C8D8F9092939596989A9C9EA0A2A4A6") (owner "Xilinx"))
+              (property INIT_06 (string "A6A4A2A09E9C9A9896959392908F8D8C8B8A8988878685858484838382828282") (owner "Xilinx"))
+              (property INIT_07 (string "FEFBF8F5F2EFECE9E6E3E0DDDAD7D4D1CECCC9C6C3C1BEBBB9B6B4B1AFADAAA8") (owner "Xilinx"))
+              (property INIT_08 (string "5A5C5E60626466686A6B6D6E7071737475767778797A7B7B7C7C7D7D7E7E7E7E") (owner "Xilinx"))
+              (property INIT_09 (string "0205080B0E1114171A1D202326292C2F3234373A3D3F4245474A4C4F51535658") (owner "Xilinx"))
+              (property INIT_0A (string "A8AAADAFB1B4B6B9BBBEC1C3C6C9CCCED1D4D7DADDE0E3E6E9ECEFF2F5F8FBFE") (owner "Xilinx"))
+              (property INIT_0B (string "82828282838384848585868788898A8B8C8D8F9092939596989A9C9EA0A2A4A6") (owner "Xilinx"))
+              (property INIT_0C (string "A6A4A2A09E9C9A9896959392908F8D8C8B8A8988878685858484838382828282") (owner "Xilinx"))
+              (property INIT_0D (string "FEFBF8F5F2EFECE9E6E3E0DDDAD7D4D1CECCC9C6C3C1BEBBB9B6B4B1AFADAAA8") (owner "Xilinx"))
+              (property INIT_0E (string "585653514F4C4A4745423F3D3A3734322F2C292623201D1A1714110E0B080502") (owner "Xilinx"))
+              (property INIT_0F (string "7E7E7E7E7D7D7C7C7B7B7A7978777675747371706E6D6B6A68666462605E5C5A") (owner "Xilinx"))
+              (property INIT_A (string "00000") (owner "Xilinx"))
+              (property INIT_B (string "00000") (owner "Xilinx"))
+              (property WRITE_MODE_A (string "WRITE_FIRST") (owner "Xilinx"))
+              (property WRITE_MODE_B (string "WRITE_FIRST") (owner "Xilinx"))
+              (property DATA_WIDTH_A (integer 9) (owner "Xilinx"))
+              (property DATA_WIDTH_B (integer 9) (owner "Xilinx"))
+              (property DOA_REG (integer 1) (owner "Xilinx"))
+              (property DOB_REG (integer 1) (owner "Xilinx"))
+              (property EN_RSTRAM_A (string "TRUE") (owner "Xilinx"))
+              (property EN_RSTRAM_B (string "TRUE") (owner "Xilinx"))
+              (property INITP_00 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INITP_01 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INITP_02 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INITP_03 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_10 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_11 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_12 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_13 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_14 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_15 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_16 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_17 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_18 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_19 (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_1A (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_1B (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_1C (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_1D (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_1E (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property INIT_1F (string "0000000000000000000000000000000000000000000000000000000000000000") (owner "Xilinx"))
+              (property RAM_MODE (string "TDP") (owner "Xilinx"))
+              (property RST_PRIORITY_A (string "CE") (owner "Xilinx"))
+              (property RST_PRIORITY_B (string "CE") (owner "Xilinx"))
+              (property RSTTYPE (string "SYNC") (owner "Xilinx"))
+              (property SRVAL_A (string "00000") (owner "Xilinx"))
+              (property SRVAL_B (string "00000") (owner "Xilinx"))
+              (property INIT_FILE (string "NONE") (owner "Xilinx"))
+              (property SIM_COLLISION_CHECK (string "ALL") (owner "Xilinx"))
+            )
+            (net clk
+              (joined
+                (portRef clk)
+                (portRef C (instanceRef blk0000001f))
+                (portRef C (instanceRef blk0000001e))
+                (portRef C (instanceRef blk0000001d))
+                (portRef C (instanceRef blk0000001c))
+                (portRef C (instanceRef blk0000001b))
+                (portRef C (instanceRef blk0000001a))
+                (portRef C (instanceRef blk00000019))
+                (portRef C (instanceRef blk00000018))
+                (portRef C (instanceRef blk00000017))
+                (portRef C (instanceRef blk00000016))
+                (portRef C (instanceRef blk00000015))
+                (portRef C (instanceRef blk00000014))
+                (portRef C (instanceRef blk00000013))
+                (portRef C (instanceRef blk00000012))
+                (portRef C (instanceRef blk00000011))
+                (portRef C (instanceRef blk00000010))
+                (portRef C (instanceRef blk0000000f))
+                (portRef C (instanceRef blk0000000e))
+                (portRef C (instanceRef blk0000000d))
+                (portRef C (instanceRef blk0000000c))
+                (portRef C (instanceRef blk0000000b))
+                (portRef C (instanceRef blk0000000a))
+                (portRef C (instanceRef blk00000009))
+                (portRef C (instanceRef blk00000008))
+                (portRef C (instanceRef blk00000007))
+                (portRef C (instanceRef blk00000006))
+                (portRef C (instanceRef blk00000005))
+                (portRef C (instanceRef blk00000004))
+                (portRef C (instanceRef blk00000003))
+                (portRef CLKAWRCLK (instanceRef blk00000076))
+                (portRef CLKBRDCLK (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_7_ "cosine<7>")
+              (joined
+                (portRef (member cosine 0))
+                (portRef (member DOBDO 8) (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_6_ "cosine<6>")
+              (joined
+                (portRef (member cosine 1))
+                (portRef (member DOBDO 9) (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_5_ "cosine<5>")
+              (joined
+                (portRef (member cosine 2))
+                (portRef (member DOBDO 10) (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_4_ "cosine<4>")
+              (joined
+                (portRef (member cosine 3))
+                (portRef (member DOBDO 11) (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_3_ "cosine<3>")
+              (joined
+                (portRef (member cosine 4))
+                (portRef (member DOBDO 12) (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_2_ "cosine<2>")
+              (joined
+                (portRef (member cosine 5))
+                (portRef (member DOBDO 13) (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_1_ "cosine<1>")
+              (joined
+                (portRef (member cosine 6))
+                (portRef (member DOBDO 14) (instanceRef blk00000076))
+              )
+            )
+            (net (rename cosine_0_ "cosine<0>")
+              (joined
+                (portRef (member cosine 7))
+                (portRef (member DOBDO 15) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_7_ "sine<7>")
+              (joined
+                (portRef (member sine 0))
+                (portRef (member DOADO 8) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_6_ "sine<6>")
+              (joined
+                (portRef (member sine 1))
+                (portRef (member DOADO 9) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_5_ "sine<5>")
+              (joined
+                (portRef (member sine 2))
+                (portRef (member DOADO 10) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_4_ "sine<4>")
+              (joined
+                (portRef (member sine 3))
+                (portRef (member DOADO 11) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_3_ "sine<3>")
+              (joined
+                (portRef (member sine 4))
+                (portRef (member DOADO 12) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_2_ "sine<2>")
+              (joined
+                (portRef (member sine 5))
+                (portRef (member DOADO 13) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_1_ "sine<1>")
+              (joined
+                (portRef (member sine 6))
+                (portRef (member DOADO 14) (instanceRef blk00000076))
+              )
+            )
+            (net (rename sine_0_ "sine<0>")
+              (joined
+                (portRef (member sine 7))
+                (portRef (member DOADO 15) (instanceRef blk00000076))
+              )
+            )
+            (net sig00000001
+              (joined
+                (portRef P (instanceRef blk00000001))
+                (portRef (member B 7) (instanceRef blk00000020))
+                (portRef (member ADDRBRDADDR 1) (instanceRef blk00000076))
+                (portRef ENAWREN (instanceRef blk00000076))
+                (portRef ENBRDEN (instanceRef blk00000076))
+                (portRef REGCEA (instanceRef blk00000076))
+                (portRef REGCEBREGCE (instanceRef blk00000076))
+              )
+            )
+            (net sig00000002
+              (joined
+                (portRef G (instanceRef blk00000002))
+                (portRef (member B 0) (instanceRef blk00000020))
+                (portRef (member B 1) (instanceRef blk00000020))
+                (portRef (member B 2) (instanceRef blk00000020))
+                (portRef (member B 3) (instanceRef blk00000020))
+                (portRef (member B 4) (instanceRef blk00000020))
+                (portRef (member B 5) (instanceRef blk00000020))
+                (portRef (member B 6) (instanceRef blk00000020))
+                (portRef (member B 8) (instanceRef blk00000020))
+                (portRef (member B 9) (instanceRef blk00000020))
+                (portRef (member B 10) (instanceRef blk00000020))
+                (portRef (member B 11) (instanceRef blk00000020))
+                (portRef (member B 12) (instanceRef blk00000020))
+                (portRef (member B 13) (instanceRef blk00000020))
+                (portRef (member B 14) (instanceRef blk00000020))
+                (portRef (member B 15) (instanceRef blk00000020))
+                (portRef (member B 16) (instanceRef blk00000020))
+                (portRef (member B 17) (instanceRef blk00000020))
+                (portRef (member B 18) (instanceRef blk00000020))
+                (portRef (member B 19) (instanceRef blk00000020))
+                (portRef (member B 20) (instanceRef blk00000020))
+                (portRef (member B 21) (instanceRef blk00000020))
+                (portRef (member B 22) (instanceRef blk00000020))
+                (portRef (member B 23) (instanceRef blk00000020))
+                (portRef (member B 24) (instanceRef blk00000020))
+                (portRef (member B 25) (instanceRef blk00000020))
+                (portRef (member B 26) (instanceRef blk00000020))
+                (portRef (member B 27) (instanceRef blk00000020))
+                (portRef (member C_IN 0) (instanceRef blk00000020))
+                (portRef (member ADDRAWRADDR 1) (instanceRef blk00000076))
+                (portRef (member ADDRAWRADDR 0) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 0) (instanceRef blk00000076))
+                (portRef (member DIADI 15) (instanceRef blk00000076))
+                (portRef (member DIADI 14) (instanceRef blk00000076))
+                (portRef (member DIADI 13) (instanceRef blk00000076))
+                (portRef (member DIADI 12) (instanceRef blk00000076))
+                (portRef (member DIADI 11) (instanceRef blk00000076))
+                (portRef (member DIADI 10) (instanceRef blk00000076))
+                (portRef (member DIADI 9) (instanceRef blk00000076))
+                (portRef (member DIADI 8) (instanceRef blk00000076))
+                (portRef (member DIPADIP 1) (instanceRef blk00000076))
+                (portRef RSTA (instanceRef blk00000076))
+                (portRef RSTBRST (instanceRef blk00000076))
+                (portRef (member WEAWEL 1) (instanceRef blk00000076))
+                (portRef (member WEAWEL 0) (instanceRef blk00000076))
+                (portRef (member WEBWEU 1) (instanceRef blk00000076))
+                (portRef (member WEBWEU 0) (instanceRef blk00000076))
+              )
+            )
+            (net sig00000003
+              (joined
+                (portRef (member A 0) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000004))
+                (portRef (member ADDRAWRADDR 2) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 2) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000004
+              (joined
+                (portRef (member A 1) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000005))
+                (portRef (member ADDRAWRADDR 3) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 3) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000005
+              (joined
+                (portRef (member A 2) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000006))
+                (portRef (member ADDRAWRADDR 4) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 4) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000006
+              (joined
+                (portRef (member A 3) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000007))
+                (portRef (member ADDRAWRADDR 5) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 5) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000007
+              (joined
+                (portRef (member A 4) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000008))
+                (portRef (member ADDRAWRADDR 6) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 6) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000008
+              (joined
+                (portRef (member A 5) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000009))
+                (portRef (member ADDRAWRADDR 7) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 7) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000009
+              (joined
+                (portRef (member A 6) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000000a))
+                (portRef (member ADDRAWRADDR 8) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 8) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000000a
+              (joined
+                (portRef (member A 7) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000000b))
+                (portRef (member ADDRAWRADDR 9) (instanceRef blk00000076))
+                (portRef (member ADDRBRDADDR 9) (instanceRef blk00000076))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000000b
+              (joined
+                (portRef D (instanceRef blk00000003))
+                (portRef (member C_OUT 0) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000000c
+              (joined
+                (portRef D (instanceRef blk00000004))
+                (portRef (member SUM 0) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000000d
+              (joined
+                (portRef D (instanceRef blk00000005))
+                (portRef (member SUM 1) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000000e
+              (joined
+                (portRef D (instanceRef blk00000006))
+                (portRef (member SUM 2) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000000f
+              (joined
+                (portRef D (instanceRef blk00000007))
+                (portRef (member SUM 3) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000010
+              (joined
+                (portRef D (instanceRef blk00000008))
+                (portRef (member SUM 4) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000011
+              (joined
+                (portRef D (instanceRef blk00000009))
+                (portRef (member SUM 5) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000012
+              (joined
+                (portRef D (instanceRef blk0000000a))
+                (portRef (member SUM 6) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000013
+              (joined
+                (portRef D (instanceRef blk0000000b))
+                (portRef (member SUM 7) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000014
+              (joined
+                (portRef D (instanceRef blk0000000c))
+                (portRef (member SUM 8) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000015
+              (joined
+                (portRef D (instanceRef blk0000000d))
+                (portRef (member SUM 9) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000016
+              (joined
+                (portRef D (instanceRef blk0000000e))
+                (portRef (member SUM 10) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000017
+              (joined
+                (portRef D (instanceRef blk0000000f))
+                (portRef (member SUM 11) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000018
+              (joined
+                (portRef D (instanceRef blk00000010))
+                (portRef (member SUM 12) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000019
+              (joined
+                (portRef D (instanceRef blk00000011))
+                (portRef (member SUM 13) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000001a
+              (joined
+                (portRef D (instanceRef blk00000012))
+                (portRef (member SUM 14) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000001b
+              (joined
+                (portRef D (instanceRef blk00000013))
+                (portRef (member SUM 15) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000001c
+              (joined
+                (portRef D (instanceRef blk00000014))
+                (portRef (member SUM 16) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000001d
+              (joined
+                (portRef D (instanceRef blk00000015))
+                (portRef (member SUM 17) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000001e
+              (joined
+                (portRef D (instanceRef blk00000016))
+                (portRef (member SUM 18) (instanceRef blk00000020))
+              )
+            )
+            (net sig0000001f
+              (joined
+                (portRef D (instanceRef blk00000017))
+                (portRef (member SUM 19) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000020
+              (joined
+                (portRef D (instanceRef blk00000018))
+                (portRef (member SUM 20) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000021
+              (joined
+                (portRef D (instanceRef blk00000019))
+                (portRef (member SUM 21) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000022
+              (joined
+                (portRef D (instanceRef blk0000001a))
+                (portRef (member SUM 22) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000023
+              (joined
+                (portRef D (instanceRef blk0000001b))
+                (portRef (member SUM 23) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000024
+              (joined
+                (portRef D (instanceRef blk0000001c))
+                (portRef (member SUM 24) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000025
+              (joined
+                (portRef D (instanceRef blk0000001d))
+                (portRef (member SUM 25) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000026
+              (joined
+                (portRef D (instanceRef blk0000001e))
+                (portRef (member SUM 26) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000027
+              (joined
+                (portRef D (instanceRef blk0000001f))
+                (portRef (member SUM 27) (instanceRef blk00000020))
+              )
+            )
+            (net sig00000028
+              (joined
+                (portRef (member A 27) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000001f))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000029
+              (joined
+                (portRef (member A 26) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000001e))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000002a
+              (joined
+                (portRef (member A 25) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000001d))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000002b
+              (joined
+                (portRef (member A 24) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000001c))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000002c
+              (joined
+                (portRef (member A 23) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000001b))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000002d
+              (joined
+                (portRef (member A 22) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000001a))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000002e
+              (joined
+                (portRef (member A 21) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000019))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000002f
+              (joined
+                (portRef (member A 20) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000018))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000030
+              (joined
+                (portRef (member A 19) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000017))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000031
+              (joined
+                (portRef (member A 18) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000016))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000032
+              (joined
+                (portRef (member A 17) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000015))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000033
+              (joined
+                (portRef (member A 16) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000014))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000034
+              (joined
+                (portRef (member A 15) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000013))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000035
+              (joined
+                (portRef (member A 14) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000012))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000036
+              (joined
+                (portRef (member A 13) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000011))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000037
+              (joined
+                (portRef (member A 12) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk00000010))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000038
+              (joined
+                (portRef (member A 11) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000000f))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig00000039
+              (joined
+                (portRef (member A 10) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000000e))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000003a
+              (joined
+                (portRef (member A 9) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000000d))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000003b
+              (joined
+                (portRef (member A 8) (instanceRef blk00000020))
+                (portRef Q (instanceRef blk0000000c))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+            (net sig0000003c
+              (joined
+                (portRef Q (instanceRef blk00000003))
+              )
+              (property NOMERGE (boolean (true)) (owner "Xilinx"))
+            )
+          )
+      )
+    )
+  )
+
+  (design dds250k
+    (cellRef dds250k
+      (libraryRef dds250k_lib)
+    )
+    (property PART (string "6slx16ftg256-2") (owner "Xilinx"))
+  )
+)
+

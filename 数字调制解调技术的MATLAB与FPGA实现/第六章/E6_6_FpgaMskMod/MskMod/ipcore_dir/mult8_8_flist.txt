@@ -1,0 +1,15 @@
+# Output products list for <mult8_8>
+_xmsgs\pn_parser.xmsgs
+mult8_8.asy
+mult8_8.gise
+mult8_8.ngc
+mult8_8.sym
+mult8_8.vhd
+mult8_8.vho
+mult8_8.xco
+mult8_8.xise
+mult8_8\doc\mult_gen_ds255.pdf
+mult8_8\doc\mult_gen_v11_2_readme.txt
+mult8_8\doc\mult_gen_v11_2_vinfo.html
+mult8_8_flist.txt
+mult8_8_xmdf.tcl

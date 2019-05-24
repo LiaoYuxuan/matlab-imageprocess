@@ -1,0 +1,17 @@
+# Output products list for <mult13_13>
+_xmsgs\
+mult13_13.asy
+mult13_13.gise
+mult13_13.ise
+mult13_13.ngc
+mult13_13.sym
+mult13_13.v
+mult13_13.veo
+mult13_13.vhd
+mult13_13.vho
+mult13_13.xco
+mult13_13.xise
+mult13_13_flist.txt
+mult13_13_readme.txt
+mult13_13_xdb\tmp\
+mult13_13_xmdf.tcl

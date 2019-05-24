@@ -1,0 +1,15 @@
+C:\Synopsys\fpga_H201303\bin64\m_xilinx.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work  -part XC6SLX16ftg256-2   -enable_prepacking -maxfan 100  -m1  -pipe   -fixgatedclocks 1 -fixgeneratedclocks 1 -verification_mode 0      -summaryfile D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synlog\report\MskMod_premap.xml -RWCheckOnRam 1   -reporting_ctd 1  -preserve_slash_names -top_level_module  MskMod  -ta_num_paths 0  -ta_num_points 0  -oedif  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.edn  -conchk_prepass  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod_cck_prepass.rpt  -freq 1.000  -tcl  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.sdc  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_compiler.srs  -flow prepass  -gcc_prepass  -osrd  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_premap.srd  -qsap  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.sap  -devicelib  C:\Synopsys\fpga_H201303\lib\xilinx\unisim_m10i.v  -devicelib  C:\Synopsys\fpga_H201303\lib\xilinx\unisim.v  -ologparam  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\MskMod.plg  -osyn  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_premap.srd  -prjdir  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\  -prjname  MskMod  -log  D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synlog\MskMod_premap.srr 
+rc:1 success:1
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.edn|o|0|0
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod_cck_prepass.rpt|o|0|0
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.sdc|i|1495369412|0
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_compiler.srs|i|1495427560|82530
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_premap.srd|o|1495427567|101530
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.sap|o|1495427567|12309
+C:\Synopsys\fpga_H201303\lib\xilinx\unisim_m10i.v|i|1361803430|948675
+C:\Synopsys\fpga_H201303\lib\xilinx\unisim.v|i|1361803430|1222528
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\MskMod.plg|o|1495427563|0
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synwork\MskMod_premap.srd|o|1495427567|101530
+D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synlog\MskMod_premap.srr|o|1495427567|3347
+C:\Synopsys\fpga_H201303\bin64\m_xilinx.exe|i|1362116596|28043264
+C:\Synopsys\fpga_H201303\bin\m_xilinx.exe|i|1362114374|20568064

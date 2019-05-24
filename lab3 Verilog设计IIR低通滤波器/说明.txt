@@ -1,0 +1,2 @@
+这个两个文档是MathWorks官网的文档，介绍FDA工具生成HDL代码，可以直接生成各种滤波器的Verilog代码，很爽啊。
+完整代码在：https://github.com/NingHeChuan/Communication_Design

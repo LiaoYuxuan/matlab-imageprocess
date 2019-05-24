@@ -1,0 +1,9 @@
+run
+-ifmt MIXED
+-top clockdv4_exdes
+-p xc6slx16-ftg256-2
+-ifn xst.prj
+-ofn clockdv4_exdes
+-keep_hierarchy soft 
+-equivalent_register_removal no 
+-max_fanout 65535

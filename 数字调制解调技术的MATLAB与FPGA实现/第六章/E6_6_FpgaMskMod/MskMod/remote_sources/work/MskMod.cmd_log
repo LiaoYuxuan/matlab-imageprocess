@@ -1,0 +1,2 @@
+C:/Synopsys/fpga_H201303/bin/mbin/synplify.exe MskMod.prj -tcl MskMod_map.tcl 
+C:/Synopsys/fpga_H201303/bin/mbin/synplify.exe -tcl D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/remote_sources/work/MskMod_open_file.tcl 

@@ -1,0 +1,54 @@
+---------------------------------------
+Resource Usage Report for SquareLoop 
+
+Mapping to part: xc6slx16ftg256-2
+Cell usage:
+DSP48A1         3 uses
+FD              30 uses
+FDC             3 uses
+FDCE            83 uses
+FDE             3398 uses
+FDPE            3 uses
+GND             13 uses
+MUXCY           1494 uses
+MUXCY_L         83 uses
+RAMB8BWER       1 use
+VCC             13 uses
+XORCY           1656 uses
+LUT1            1 use
+LUT2            119 uses
+LUT3            3 uses
+LUT4            2528 uses
+
+I/O ports: 46
+I/O primitives: 46
+IBUF           9 uses
+IBUFG          1 use
+OBUF           36 uses
+
+BUFG           1 use
+
+SRL primitives:
+SRL16E         32 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   3517 (18%)
+
+RAM/ROM usage summary
+Occupied Block RAM sites (RAMB36) : 1 of 32 (3%)
+
+
+DSP48s: 3 of 32 (9%)
+
+Global Clock Buffers: 1 of 16 (6%)
+
+
+Mapping Summary:
+Total  LUTs: 2682 (27%)
+
+Distribution of All Consumed LUTs = SRL + LUT1 + LUT2 + LUT3 + LUT4- HLUTNM/2 
+Distribution of All Consumed Luts 2682 = 32 + 1 + 119 + 3 + 2528- 2/2 
+
+
+ Number of unique control sets:              14
+

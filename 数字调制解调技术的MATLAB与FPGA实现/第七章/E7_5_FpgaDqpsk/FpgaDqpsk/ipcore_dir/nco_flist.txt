@@ -1,0 +1,17 @@
+# Output products list for <nco>
+_xmsgs\
+nco.asy
+nco.gise
+nco.ise
+nco.ngc
+nco.sym
+nco.v
+nco.veo
+nco.vhd
+nco.vho
+nco.xco
+nco.xise
+nco_flist.txt
+nco_readme.txt
+nco_xdb\tmp\
+nco_xmdf.tcl

@@ -1,0 +1,1 @@
+@W: MT529 :"d:\modemprograms\chapter_6\e6_6_fpgamskmod\mskmod\codeproduce.vhd":84:6:84:7|Found inferred clock MskMod|clk which controls 34 sequential elements including u1.pcm. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,17 @@
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":30:7:30:12|Synthesizing work.mskmod.behavioral 
+@W: CD326 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":86:1:86:2|Port ce of entity work.codeproduce is unconnected
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.vhd":43:7:43:13|Synthesizing work.mult8_8.mult8_8_a 
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.vhd":43:7:43:13|Creating black box for empty architecture mult8_8 
+Post processing for work.mult8_8.mult8_8_a
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.vhd":43:7:43:11|Synthesizing work.dds3m.dds3m_a 
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.vhd":43:7:43:11|Creating black box for empty architecture dds3m 
+Post processing for work.dds3m.dds3m_a
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.vhd":43:7:43:13|Synthesizing work.dds250k.dds250k_a 
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.vhd":43:7:43:13|Creating black box for empty architecture dds250k 
+Post processing for work.dds250k.dds250k_a
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\CodeProduce.vhd":34:7:34:17|Synthesizing work.codeproduce.behavioral 
+@W: CD604 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\CodeProduce.vhd":99:5:99:18|OTHERS clause is not synthesized 
+Post processing for work.codeproduce.behavioral
+Post processing for work.mskmod.behavioral
+@W: CL265 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":79:8:79:11|Pruning bit 15 of dout(15 downto 0) -- not in use ... 
+@W: CL271 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":79:8:79:11|Pruning bits 6 to 0 of dout(15 downto 0) -- not in use ... 

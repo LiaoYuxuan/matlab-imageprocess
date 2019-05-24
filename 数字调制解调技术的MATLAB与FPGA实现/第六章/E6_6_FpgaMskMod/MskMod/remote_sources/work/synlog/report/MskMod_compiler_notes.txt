@@ -1,0 +1,22 @@
+@N|Running in 64-bit mode
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\mult8_8..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\mult8_8..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\dds3m..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\dds3m..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\dds250k..ndf" 
+@N: Z284 |Reading NGC/NGO file "D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.ngc" for timing estimation. 
+@N: Z278 |Reading EDIF file "syntmp\dds250k..ndf" 
+@N: CD720 :"C:\Synopsys\fpga_H201303\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":30:7:30:12|Top entity is set to MskMod.
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":30:7:30:12|Synthesizing work.mskmod.behavioral 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.vhd":43:7:43:13|Synthesizing work.mult8_8.mult8_8_a 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.vhd":43:7:43:11|Synthesizing work.dds3m.dds3m_a 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.vhd":43:7:43:13|Synthesizing work.dds250k.dds250k_a 
+@N: CD630 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\CodeProduce.vhd":34:7:34:17|Synthesizing work.codeproduce.behavioral 
+@N|Running in 64-bit mode
+

@@ -1,0 +1,44 @@
+#OPTIONS:"|-mixedhdl|-layerid|0|-top|MskMod|-hasedforngc|-dspmac|-pqdpadd|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-verification_mode|0|-nram|-divnmod|-loadunimacro|-encrypt|-pro|-lite|-ll|2000|-compiler_compatible|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Synopsys\\fpga_H201303\\bin64\\c_vhdl.exe":1361803150
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\location.map":1361850558
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\std.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\snps_haps_pkg.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\std1164.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\numeric.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\umr_capim.vhd":1361803526
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\arith.vhd":1361803524
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\unsigned.vhd":1361803526
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_6_FpgaMskMod\\MskMod\\ipcore_dir\\dds250k.vhd":1495348212
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_6_FpgaMskMod\\MskMod\\ipcore_dir\\dds3m.vhd":1495348422
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_6_FpgaMskMod\\MskMod\\ipcore_dir\\mult8_8.vhd":1495376667
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_6_FpgaMskMod\\MskMod\\CodeProduce.vhd":1495358058
+#CUR:"C:\\Synopsys\\fpga_H201303\\lib\\vhd\\signed.vhd":1361803524
+#CUR:"D:\\ModemPrograms\\Chapter_6\\E6_6_FpgaMskMod\\MskMod\\MskMod.vhd":1495376090
+0			"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.vhd" vhdl
+1			"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.vhd" vhdl
+2			"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.vhd" vhdl
+3			"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\CodeProduce.vhd" vhdl
+4			"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 -1
+4 3 0 1 2
+#Dependency Lists(Users Of)
+0 4
+1 4
+2 4
+3 4
+4 -1
+#Design Unit to File Association
+module work mskmod 4
+arch work mskmod behavioral 4
+module work codeproduce 3
+arch work codeproduce behavioral 3
+module work mult8_8 2
+arch work mult8_8 mult8_8_a 2
+module work dds3m 1
+arch work dds3m dds3m_a 1
+module work dds250k 0
+arch work dds250k dds250k_a 0

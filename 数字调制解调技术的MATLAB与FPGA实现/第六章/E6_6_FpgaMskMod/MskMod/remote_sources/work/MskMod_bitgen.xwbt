@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.ncd
+OUTFILE=D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\MskMod.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work
+LICENSE=WebPack
+USER_INFO=__0_0_0

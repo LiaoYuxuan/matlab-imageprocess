@@ -1,0 +1,27 @@
+Selecting top level module RAMB8BWER
+@N: CG706 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35788:7:35788:15|Selected top-level module RAMB8BWER is a black box, ignoring black box ...
+@N: CG364 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35788:7:35788:15|Synthesizing module RAMB8BWER
+
+@W: CG146 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35788:7:35788:15|Creating black box for empty module RAMB8BWER
+
+@N: CG706 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35788:7:35788:15|Selected top-level module RAMB8BWER is a black box, ignoring black box ...
+@W: CL157 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35807:14:35807:18|*Output DOADO has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35808:14:35808:18|*Output DOBDO has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35809:13:35809:19|*Output DOPADOP has undriven bits -- simulation mismatch possible.
+@W: CL157 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35810:13:35810:19|*Output DOPBDOP has undriven bits -- simulation mismatch possible.
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35791:13:35791:23|Input ADDRAWRADDR is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35792:13:35792:23|Input ADDRBRDADDR is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35793:6:35793:14|Input CLKAWRCLK is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35794:6:35794:14|Input CLKBRDCLK is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35795:13:35795:17|Input DIADI is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35796:13:35796:17|Input DIBDI is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35797:12:35797:18|Input DIPADIP is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35798:12:35798:18|Input DIPBDIP is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35799:6:35799:12|Input ENAWREN is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35800:6:35800:12|Input ENBRDEN is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35801:6:35801:11|Input REGCEA is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35802:6:35802:16|Input REGCEBREGCE is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35803:6:35803:9|Input RSTA is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35804:6:35804:12|Input RSTBRST is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35805:12:35805:17|Input WEAWEL is unused
+@W: CL159 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\syntmp\unisim.v":35806:12:35806:17|Input WEBWEU is unused

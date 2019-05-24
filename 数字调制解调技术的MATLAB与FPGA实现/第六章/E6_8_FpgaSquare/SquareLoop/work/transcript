@@ -1,0 +1,129 @@
+# Reading D:/Programs/modeltech/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {tst.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity locklpf
+# -- Compiling architecture locklpf_a of locklpf
+# -- Loading package bip_utils_pkg_v2_0
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Loading package fir_compiler_v5_0_sim_pkg
+# -- Loading package ul_utils
+# -- Loading package fir_compiler_v5_0_sim_comps
+# -- Loading entity fir_compiler_v5_0
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity LoopFilter
+# -- Compiling architecture Behavioral of LoopFilter
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nco
+# -- Compiling architecture nco_a of nco
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package bip_utils_pkg_v2_0
+# -- Loading package bip_usecase_utils_pkg_v2_0
+# -- Loading package xcc_utils_v2_0
+# -- Loading package pkg_dds_compiler_v4_0
+# -- Loading package dds_compiler_v4_0_sim_comps
+# -- Loading package xbip_pipe_v2_0_xst_comp
+# -- Loading entity dds_compiler_v4_0
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mult8_8
+# -- Compiling architecture mult8_8_a of mult8_8
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package bip_utils_pkg_v2_0
+# -- Loading package mult_gen_pkg_v11_2
+# -- Loading entity mult_gen_v11_2
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity SquareLoop
+# -- Compiling architecture Behavioral of SquareLoop
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity tst
+# -- Compiling architecture behavior of tst
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.tst(behavior)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.squareloop(behavioral)
+# Loading ieee.math_real(body)
+# Loading xilinxcorelib.bip_utils_pkg_v2_0(body)
+# Loading xilinxcorelib.bip_usecase_utils_pkg_v2_0(body)
+# Loading xilinxcorelib.xcc_utils_v2_0(body)
+# Loading xilinxcorelib.pkg_dds_compiler_v4_0(body)
+# Loading xilinxcorelib.dds_compiler_v4_0_sim_comps
+# Loading xilinxcorelib.xbip_pipe_v2_0_xst_comp
+# Loading work.nco(nco_a)
+# Loading xilinxcorelib.dds_compiler_v4_0(behavioral)
+# Loading xilinxcorelib.xbip_pipe_v2_0_comp
+# Loading xilinxcorelib.xbip_pipe_v2_0_xst(behavioral)
+# Loading xilinxcorelib.xbip_pipe_v2_0(behavioral)
+# Loading xilinxcorelib.mult_gen_pkg_v11_2(body)
+# Loading work.mult8_8(mult8_8_a)
+# Loading xilinxcorelib.mult_gen_v11_2(behavioral)
+# Loading xilinxcorelib.fir_compiler_v5_0_sim_pkg(body)
+# Loading xilinxcorelib.ul_utils(body)
+# Loading xilinxcorelib.fir_compiler_v5_0_sim_comps
+# Loading work.locklpf(locklpf_a)
+# Loading xilinxcorelib.fir_compiler_v5_0(behavioral)
+# Loading xilinxcorelib.fir_compiler_v5_0_da_fir(behavioral)
+# Loading work.loopfilter(behavioral)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Region: /tst/uut/u1/U0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Region: /tst/uut/u1/U0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /tst/uut/u1/U0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Region: /tst/uut/u1/U0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 31250 ps  Iteration: 5  Region: /tst/uut/u4/U0/parallel_multiplier/parm/signed_multiply
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 93750 ps  Iteration: 5  Region: /tst/uut/u4/U0/parallel_multiplier/parm/signed_multiply

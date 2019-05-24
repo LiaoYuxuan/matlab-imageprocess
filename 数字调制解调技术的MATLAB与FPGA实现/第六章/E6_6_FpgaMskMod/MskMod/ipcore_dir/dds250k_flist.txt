@@ -1,0 +1,15 @@
+# Output products list for <dds250k>
+_xmsgs\pn_parser.xmsgs
+dds250k.asy
+dds250k.gise
+dds250k.ngc
+dds250k.sym
+dds250k.vhd
+dds250k.vho
+dds250k.xco
+dds250k.xise
+dds250k\doc\dds_compiler_v4_0_vinfo.html
+dds250k\doc\dds_ds558.pdf
+dds250k_flist.txt
+dds250k_readme.txt
+dds250k_xmdf.tcl

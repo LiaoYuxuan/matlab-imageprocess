@@ -1,0 +1,95 @@
+##############################################################
+#
+# Xilinx Core Generator version 11.3
+# Date: Mon Oct 07 02:49:52 2013
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = False
+SET asysymbol = True
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = VHDL
+SET device = xc6slx16
+SET devicefamily = spartan6
+SET flowvendor = Foundation_ISE
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = csg225
+SET removerpms = False
+SET simulationfiles = Behavioral
+SET speedgrade = -2
+SET verilogsim = True
+SET vhdlsim = True
+# END Project Options
+# BEGIN Select
+SELECT FIR_Compiler family Xilinx,_Inc. 5.0
+# END Select
+# BEGIN Parameters
+CSET allow_rounding_approximation=false
+CSET bestprecision=false
+CSET chan_in_adv=0
+CSET clock_frequency=250.0
+CSET coefficient_buffer_type=Automatic
+CSET coefficient_file=D:\ModemPrograms\Chapter_7\E7_1_DpskModem\tra_lpf.coe
+CSET coefficient_fractional_bits=0
+CSET coefficient_reload=false
+CSET coefficient_sets=1
+CSET coefficient_sign=Signed
+CSET coefficient_structure=Symmetric
+CSET coefficient_width=10
+CSET coefficientsource=COE_File
+CSET coefficientvector=6,0,-4,-3,5,6,-6,-13,7,44,64,44,7,-13,-6,6,5,-3,-4,0,6
+CSET columnconfig=14
+CSET component_name=fir_compiler_v5_0
+CSET data_buffer_type=Automatic
+CSET data_fractional_bits=0
+CSET data_sign=Signed
+CSET data_width=2
+CSET decimation_rate=1
+CSET displayreloadorder=false
+CSET filter_architecture=Systolic_Multiply_Accumulate
+CSET filter_selection=1
+CSET filter_type=Single_Rate
+CSET gui_behaviour=Coregen
+CSET hardwareoversamplingrate=1
+CSET has_ce=false
+CSET has_data_valid=false
+CSET has_nd=true
+CSET has_sclr=false
+CSET input_buffer_type=Automatic
+CSET inter_column_pipe_length=4
+CSET interpolation_rate=1
+CSET multi_column_support=Disabled
+CSET number_channels=1
+CSET number_paths=1
+CSET optimization_goal=Area
+CSET output_buffer_type=Automatic
+CSET output_rounding_mode=Full_Precision
+CSET output_width=15
+CSET passband_max=0.5
+CSET passband_min=0.0
+CSET preference_for_other_storage=Automatic
+CSET quantization=Integer_Coefficients
+CSET rate_change_type=Integer
+CSET ratespecification=Sample_Period
+CSET registered_output=true
+CSET sample_frequency=0.001
+CSET sampleperiod=1
+CSET sclr_deterministic=false
+CSET stopband_max=1.0
+CSET stopband_min=0.5
+CSET usechan_in_adv=false
+CSET zero_pack_factor=1
+# END Parameters
+GENERATE
+# CRC: 7660f9be

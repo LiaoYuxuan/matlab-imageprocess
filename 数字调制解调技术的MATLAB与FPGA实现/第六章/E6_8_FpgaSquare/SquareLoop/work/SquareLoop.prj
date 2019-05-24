@@ -1,0 +1,5 @@
+vhdl work "../ipcore_dir/locklpf.vhd"
+vhdl work "../LoopFilter.vhd"
+vhdl work "../ipcore_dir/nco.vhd"
+vhdl work "../ipcore_dir/mult8_8.vhd"
+vhdl work "../SquareLoop.vhd"

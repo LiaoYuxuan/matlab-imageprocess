@@ -1,0 +1,23 @@
+@W:"syntmp\nco..ndf":1659:0:1659:0| Input port C_IN[0] of pipe_add_blk00000040 is unused
+@W:"syntmp\nco..ndf":1659:0:1659:0| Input port C_IN[0] of pipe_add_blk00000040 is unused
+@W:"syntmp\mult8_8..ndf":2018:0:2018:0| Input port sclr of mult8_8_mult_gen_v11_2_xst_1_BU2 is unused
+@W:"syntmp\mult8_8..ndf":2018:0:2018:0| Input port ce of mult8_8_mult_gen_v11_2_xst_1_BU2 is unused
+@W:"syntmp\mult8_8..ndf":2018:0:2018:0| Input port sclr of mult8_8_mult_gen_v11_2_xst_1_BU2 is unused
+@W:"syntmp\mult8_8..ndf":2018:0:2018:0| Input port ce of mult8_8_mult_gen_v11_2_xst_1_BU2 is unused
+@W:"syntmp\locklpf..ndf":102682:0:102682:0| Input port rst of locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004 is unused
+@W:"syntmp\locklpf..ndf":102682:0:102682:0| Input port coef_ld of locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004 is unused
+@W:"syntmp\locklpf..ndf":102682:0:102682:0| Input port ld_we of locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004 is unused
+@W:"syntmp\locklpf..ndf":103545:0:103545:0| Input port ce of locklpf_fir_compiler_v5_0_xst_1_blk00000003 is unused
+@W:"syntmp\locklpf..ndf":103545:0:103545:0| Input port coef_filter_sel[0] of locklpf_fir_compiler_v5_0_xst_1_blk00000003 is unused
+@W:"syntmp\locklpf..ndf":103545:0:103545:0| Input port filter_sel[0] of locklpf_fir_compiler_v5_0_xst_1_blk00000003 is unused
+@W:"syntmp\locklpf..ndf":102682:0:102682:0| Input port rst of locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004 is unused
+@W:"syntmp\locklpf..ndf":102682:0:102682:0| Input port coef_ld of locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004 is unused
+@W:"syntmp\locklpf..ndf":102682:0:102682:0| Input port ld_we of locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004 is unused
+@W:"syntmp\locklpf..ndf":103545:0:103545:0| Input port ce of locklpf_fir_compiler_v5_0_xst_1_blk00000003 is unused
+@W:"syntmp\locklpf..ndf":103545:0:103545:0| Input port coef_filter_sel[0] of locklpf_fir_compiler_v5_0_xst_1_blk00000003 is unused
+@W:"syntmp\locklpf..ndf":103545:0:103545:0| Input port filter_sel[0] of locklpf_fir_compiler_v5_0_xst_1_blk00000003 is unused
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\locklpf.vhd":66:7:66:13|Creating black box for empty architecture locklpf 
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\mult8_8.vhd":43:7:43:13|Creating black box for empty architecture mult8_8 
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\ipcore_dir\nco.vhd":43:7:43:9|Creating black box for empty architecture nco 
+@W: CL246 :"D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\LoopFilter.vhd":33:11:33:12|Input port bits 2 to 0 of pd(27 downto 0) are unused 
+

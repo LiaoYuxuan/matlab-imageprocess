@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\work\synlog\SquareLoop_fpga_mapper.srr</data>
+<title>##### START OF TIMING REPORT #####[</title>
+</report_link>
+<row>
+<data>Clock Name</data>
+<data>Req Freq</data>
+<data>Est Freq</data>
+<data>Slack</data>
+</row>
+<row>
+<data>SquareLoop|clk</data>
+<data>1.0 MHz</data>
+<data>140.0 MHz</data>
+<data>992.856</data>
+</row>
+</report_table>

@@ -1,0 +1,65 @@
+#
+##-- Synplicity, Inc.
+##-- Project file D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/remote_sources/work/MskMod.prj.
+##-- Generated using ISE.
+
+#implementation: "MskMod"
+impl -add "MskMod"
+
+##utility procedures
+proc findmatch {spec args} {  set lArglist [join $args " "];  set nIndex [lsearch -glob $lArglist $spec];  if {$nIndex != -1} {  return [lindex $lArglist $nIndex];  } else {  return $spec;  }  }
+         
+proc findpackage {spec} { findmatch $spec [partdata -package [part]]}
+proc findgrade {spec} { findmatch $spec [partdata -grade   [part]]}
+
+##device options
+set_option -technology SPARTAN6
+set_option -part XC6SLX16
+set_option -package [findpackage {ftg256}]
+set_option -speed_grade [findgrade {-2}]
+
+##add_file to library options
+
+##add_file options
+add_file {../../ipcore_dir/dds250k.vhd}
+add_file {../../ipcore_dir/dds3m.vhd}
+add_file {../../ipcore_dir/mult8_8.vhd}
+add_file {../../ipcore_dir/mult8_8.ngc}
+add_file {../../ipcore_dir/dds3m.ngc}
+add_file {../../ipcore_dir/dds250k.ngc}
+add_file {../../CodeProduce.vhd}
+add_file {../../MskMod.vhd}
+
+##compilation/mapping options
+set_option -resource_sharing 1
+set_option -default_enum_encoding default
+set_option -top_module MskMod
+set_option -use_fsm_explorer 0
+
+##map options
+set_option -fanout_limit 100
+set_option -disable_io_insertion 0
+
+##sequential_optimizations options
+set_option -symbolic_fsm_compiler 1
+
+##simulation options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+##automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+##implementation attributes
+set_option -num_critical_paths 0
+set_option -num_startend_points 0
+
+##other options
+
+set_option -compiler_compatible 1
+
+##set result format/file last
+project -result_file {D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/remote_sources/work/MskMod.edn}
+
+##constraint file
+add_file -constraint {D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/remote_sources/work/MskMod.sdc}

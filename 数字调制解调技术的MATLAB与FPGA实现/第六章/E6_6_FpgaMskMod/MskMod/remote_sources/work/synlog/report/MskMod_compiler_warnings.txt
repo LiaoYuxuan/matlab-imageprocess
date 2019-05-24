@@ -1,0 +1,16 @@
+@W:"syntmp\mult8_8..ndf":3571:0:3571:0| Input port CE of mult_gen_v11_2_xst_blk00000001 is unused
+@W:"syntmp\mult8_8..ndf":3571:0:3571:0| Input port SCLR of mult_gen_v11_2_xst_blk00000001 is unused
+@W:"syntmp\mult8_8..ndf":3571:0:3571:0| Input port CE of mult_gen_v11_2_xst_blk00000001 is unused
+@W:"syntmp\mult8_8..ndf":3571:0:3571:0| Input port SCLR of mult_gen_v11_2_xst_blk00000001 is unused
+@W:"syntmp\dds3m..ndf":1515:0:1515:0| Input port C_IN[0] of pipe_add_blk00000020 is unused
+@W:"syntmp\dds3m..ndf":1515:0:1515:0| Input port C_IN[0] of pipe_add_blk00000020 is unused
+@W:"syntmp\dds250k..ndf":1515:0:1515:0| Input port C_IN[0] of pipe_add_blk00000020 is unused
+@W:"syntmp\dds250k..ndf":1515:0:1515:0| Input port C_IN[0] of pipe_add_blk00000020 is unused
+@W: CD326 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":86:1:86:2|Port ce of entity work.codeproduce is unconnected
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\mult8_8.vhd":43:7:43:13|Creating black box for empty architecture mult8_8 
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds3m.vhd":43:7:43:11|Creating black box for empty architecture dds3m 
+@W: CD286 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\ipcore_dir\dds250k.vhd":43:7:43:13|Creating black box for empty architecture dds250k 
+@W: CD604 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\CodeProduce.vhd":99:5:99:18|OTHERS clause is not synthesized 
+@W: CL265 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":79:8:79:11|Pruning bit 15 of dout(15 downto 0) -- not in use ... 
+@W: CL271 :"D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\MskMod.vhd":79:8:79:11|Pruning bits 6 to 0 of dout(15 downto 0) -- not in use ... 
+

@@ -1,0 +1,14 @@
+# Output products list for <locklpf>
+hex_locklpf.mif
+locklpf.asy
+locklpf.gise
+locklpf.mif
+locklpf.ngc
+locklpf.sym
+locklpf.vhd
+locklpf.vho
+locklpf.xco
+locklpf.xise
+locklpf_flist.txt
+locklpf_readme.txt
+locklpf_xmdf.tcl

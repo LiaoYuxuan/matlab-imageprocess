@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="../SquareLoop.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../ipcore_dir/mult8_8.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../ipcore_dir/mult8_8.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../ipcore_dir/mult8_8.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VERILOG" xil_pn:name="../ipcore_dir/mult8_8.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="../ipcore_dir/mult8_8.veo" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="../ipcore_dir/mult8_8.vhd" xil_pn:origination="imported">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../ipcore_dir/mult8_8.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../ipcore_dir/nco.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../ipcore_dir/nco.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../ipcore_dir/nco.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="../ipcore_dir/nco.vhd" xil_pn:origination="imported">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../ipcore_dir/nco.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="SquareLoop.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="SquareLoop.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="SquareLoop.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="SquareLoop.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SquareLoop.prj"/>
+    <file xil_pn:fileType="FILE_SYNPLIFY_MISC" xil_pn:name="SquareLoop.sdc" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="SquareLoop.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="SquareLoop.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="SquareLoop.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="SquareLoop_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="SquareLoop_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1495446553" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1495446553">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495446553" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6884110462103233044" xil_pn:start_ts="1495446553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495446553" xil_pn:in_ck="-4809582589778840335" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3345350788639413698" xil_pn:start_ts="1495446553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../ipcore_dir/locklpf.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/locklpf.vhd"/>
+      <outfile xil_pn:name="../ipcore_dir/mult8_8.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/mult8_8.vhd"/>
+      <outfile xil_pn:name="../ipcore_dir/nco.ngc"/>
+      <outfile xil_pn:name="../ipcore_dir/nco.vhd"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495446553" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4339969517899351022" xil_pn:start_ts="1495446553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495446553" xil_pn:in_ck="2199179021332104097" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426877399996" xil_pn:start_ts="1495446553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495446553" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4086526285905672500" xil_pn:start_ts="1495446553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1495446606" xil_pn:in_ck="5652695884410071492" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="8113132080695788763" xil_pn:start_ts="1495446553">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="SquareLoop.lso"/>
+      <outfile xil_pn:name="SquareLoop.ngc"/>
+      <outfile xil_pn:name="SquareLoop.ngr"/>
+      <outfile xil_pn:name="SquareLoop.prj"/>
+      <outfile xil_pn:name="SquareLoop.stx"/>
+      <outfile xil_pn:name="SquareLoop.syr"/>
+      <outfile xil_pn:name="SquareLoop.xst"/>
+      <outfile xil_pn:name="SquareLoop_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

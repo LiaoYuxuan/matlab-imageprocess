@@ -1,0 +1,17 @@
+# Output products list for <mult8_8>
+_xmsgs\
+mult8_8.asy
+mult8_8.gise
+mult8_8.ise
+mult8_8.ngc
+mult8_8.sym
+mult8_8.v
+mult8_8.veo
+mult8_8.vhd
+mult8_8.vho
+mult8_8.xco
+mult8_8.xise
+mult8_8_flist.txt
+mult8_8_readme.txt
+mult8_8_xdb\tmp\
+mult8_8_xmdf.tcl

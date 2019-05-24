@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\synlog\MskMod_fpga_mapper.srr</data>
+<title>##### START OF TIMING REPORT #####[</title>
+</report_link>
+<row>
+<data>Clock Name</data>
+<data>Req Freq</data>
+<data>Est Freq</data>
+<data>Slack</data>
+</row>
+<row>
+<data>MskMod|clk</data>
+<data>1.0 MHz</data>
+<data>161.1 MHz</data>
+<data>993.791</data>
+</row>
+</report_table>

@@ -1,0 +1,732 @@
+#### START OF AREA REPORT #####[
+
+Part:			XC6SLX16FTG256-2 (Xilinx)
+
+----------------------------------------------------------------------
+########   Utilization report for  Top level view:   MskMod   ########
+======================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     122                100 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block MskMod:	122 (13.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     325                100 %                
+MUXCY                    214                100 %                
+XORCY                    222                100 %                
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block MskMod:	761 (82.81 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     2                  100 %                
+======================================================
+Total MEMORY ELEMENTS in the block MskMod:	2 (0.22 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block MskMod:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block MskMod:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     11                 100 %                
+=================================================
+Total IO PADS in the block MskMod:	11 (1.20 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CodeProduce   ########
+Instance path:   MskMod.CodeProduce                              
+=================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     10                 8.2 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block MskMod.CodeProduce:	10 (1.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     24                 7.38 %               
+MUXCY                    0                  0.0 %                
+XORCY                    0                  0.0 %                
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block MskMod.CodeProduce:	24 (2.61 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block MskMod.CodeProduce:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block MskMod.CodeProduce:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block MskMod.CodeProduce:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block MskMod.CodeProduce:	0 (0.00 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   dds250k   ########
+Instance path:   MskMod.dds250k                              
+=============================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     28                 23. %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block MskMod.dds250k:	28 (3.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     28                 8.62 %               
+MUXCY                    28                 13.1 %               
+XORCY                    28                 12.6 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block MskMod.dds250k:	84 (9.14 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     1                  50. %                
+======================================================
+Total MEMORY ELEMENTS in the block MskMod.dds250k:	1 (0.11 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block MskMod.dds250k:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block MskMod.dds250k:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block MskMod.dds250k:	0 (0.00 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   pipe_add_blk00000020   ########
+Instance path:   dds250k.pipe_add_blk00000020                             
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dds250k.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     28                 8.62 %               
+MUXCY                    28                 13.1 %               
+XORCY                    28                 12.6 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block dds250k.pipe_add_blk00000020:	84 (9.14 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block dds250k.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block dds250k.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block dds250k.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block dds250k.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   dds3m   ########
+Instance path:   MskMod.dds3m                              
+===========================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     28                 23. %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block MskMod.dds3m:	28 (3.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     28                 8.62 %               
+MUXCY                    28                 13.1 %               
+XORCY                    28                 12.6 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block MskMod.dds3m:	84 (9.14 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     1                  50. %                
+======================================================
+Total MEMORY ELEMENTS in the block MskMod.dds3m:	1 (0.11 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block MskMod.dds3m:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block MskMod.dds3m:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block MskMod.dds3m:	0 (0.00 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   pipe_add_blk00000020   ########
+Instance path:   dds3m.pipe_add_blk00000020                               
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     0                  0.0 %                
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dds3m.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     28                 8.62 %               
+MUXCY                    28                 13.1 %               
+XORCY                    28                 12.6 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block dds3m.pipe_add_blk00000020:	84 (9.14 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block dds3m.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block dds3m.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block dds3m.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block dds3m.pipe_add_blk00000020:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   mult8_8_u4_0   ########
+Instance path:   MskMod.mult8_8_u4_0                              
+==================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     16                 13.1 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block MskMod.mult8_8_u4_0:	16 (1.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     107                32.9 %               
+MUXCY                    65                 30.4 %               
+XORCY                    72                 32.4 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block MskMod.mult8_8_u4_0:	244 (26.55 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block MskMod.mult8_8_u4_0:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block MskMod.mult8_8_u4_0:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block MskMod.mult8_8_u4_0:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block MskMod.mult8_8_u4_0:	0 (0.00 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   mult_gen_v11_2_xst_blk00000001_blk00000001_1   ########
+Instance path:   mult8_8_u4_0.mult_gen_v11_2_xst_blk00000001_blk00000001_1                        
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     16                 13.1 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block mult8_8_u4_0.mult_gen_v11_2_xst_blk00000001_blk00000001_1:	16 (1.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     107                32.9 %               
+MUXCY                    65                 30.4 %               
+XORCY                    72                 32.4 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block mult8_8_u4_0.mult_gen_v11_2_xst_blk00000001_blk00000001_1:	244 (26.55 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block mult8_8_u4_0.mult_gen_v11_2_xst_blk00000001_blk00000001_1:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block mult8_8_u4_0.mult_gen_v11_2_xst_blk00000001_blk00000001_1:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block mult8_8_u4_0.mult_gen_v11_2_xst_blk00000001_blk00000001_1:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block mult8_8_u4_0.mult_gen_v11_2_xst_blk00000001_blk00000001_1:	0 (0.00 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   mult8_8_u5   ########
+Instance path:   MskMod.mult8_8_u5                              
+================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     16                 13.1 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block MskMod.mult8_8_u5:	16 (1.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     107                32.9 %               
+MUXCY                    65                 30.4 %               
+XORCY                    72                 32.4 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block MskMod.mult8_8_u5:	244 (26.55 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block MskMod.mult8_8_u5:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block MskMod.mult8_8_u5:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block MskMod.mult8_8_u5:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block MskMod.mult8_8_u5:	0 (0.00 % Utilization)
+
+------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   mult_gen_v11_2_xst_blk00000001_blk00000001   ########
+Instance path:   mult8_8_u5.mult_gen_v11_2_xst_blk00000001_blk00000001                          
+================================================================================================
+
+SEQUENTIAL ELEMENTS
+*******************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     16                 13.1 %               
+LATCHES       0                  0.0 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block mult8_8_u5.mult_gen_v11_2_xst_blk00000001_blk00000001:	16 (1.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+*******************
+
+Name                     Total elements     Utilization     Notes
+-----------------------------------------------------------------
+LUTS                     107                32.9 %               
+MUXCY                    65                 30.4 %               
+XORCY                    72                 32.4 %               
+MULT18x18/MULT18x18S     0                  0.0 %                
+SRL16                    0                  0.0 %                
+=================================================================
+Total COMBINATIONAL LOGIC in the block mult8_8_u5.mult_gen_v11_2_xst_blk00000001_blk00000001:	244 (26.55 % Utilization)
+
+
+MEMORY ELEMENTS
+***************
+
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+SYNC RAMS     0                  0.0 %                
+======================================================
+Total MEMORY ELEMENTS in the block mult8_8_u5.mult_gen_v11_2_xst_blk00000001_blk00000001:	0 (0.00 % Utilization)
+
+
+
+
+
+Name     Total elements     Number of bits     Utilization     Notes
+--------------------------------------------------------------------
+                                                                    
+ROMS     0                  0                  0.0 %                
+====================================================================
+Total  in the block mult8_8_u5.mult_gen_v11_2_xst_blk00000001_blk00000001:	0 (0.00 % Utilization)
+
+
+Distributed RAM
+***************
+
+Name                Total elements     Number of LUTs     Utilization     Notes
+-------------------------------------------------------------------------------
+DISTRIBUTED RAM     0                  0                  0.0 %                
+===============================================================================
+Total Distributed RAM in the block mult8_8_u5.mult_gen_v11_2_xst_blk00000001_blk00000001:	0 (0.00 % Utilization)
+
+
+IO PADS
+*******
+
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     0                  0.0 %                
+=================================================
+Total IO PADS in the block mult8_8_u5.mult_gen_v11_2_xst_blk00000001_blk00000001:	0 (0.00 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 2
+
+u3.blk00000076
+----------------------------
+WRITE_MODE_A			WRITE_FIRST
+WRITE_MODE_B			WRITE_FIRST
+SRVAL_A					00000
+SRVAL_B					00000
+DOA_REG					1
+DOB_REG					1
+----------------------------
+
+u2.blk00000076
+----------------------------
+WRITE_MODE_A			WRITE_FIRST
+WRITE_MODE_B			WRITE_FIRST
+SRVAL_A					00000
+SRVAL_B					00000
+DOA_REG					1
+DOB_REG					1
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,19 @@
+@P:  Worst Slack : 993.791
+@P:  MskMod|clk - Estimated Frequency : 161.1 MHz
+@P:  MskMod|clk - Requested Frequency : 1.0 MHz
+@P:  MskMod|clk - Estimated Period : 6.209
+@P:  MskMod|clk - Requested Period : 1000.000
+@P:  MskMod|clk - Slack : 993.791
+@P:  Worst Slack(min analysis) : 0.911
+@P:  MskMod|clk - Estimated Frequency(min analysis) : 161.1 MHz
+@P:  MskMod|clk - Requested Frequency(min analysis) : 1.0 MHz
+@P:  MskMod|clk - Estimated Period(min analysis) : 6.209
+@P:  MskMod|clk - Requested Period(min analysis) : 1000.000
+@P:  MskMod|clk - Slack(min analysis) : 993.791
+@P: MskMod Part : xc6slx16ftg256-2
+@P: MskMod I/O primitives : 11
+@P: MskMod I/O Register bits : 0
+@P: MskMod Register bits (Non I/O) : 122 (0%)
+@P: MskMod Block Rams : 2 of 32 (6%)
+@P: MskMod Total Luts : 314 (3%)
+@P:  CPU Time : 0h:00m:13s

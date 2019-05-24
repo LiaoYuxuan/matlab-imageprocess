@@ -1,0 +1,24 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: FX103 :|Instance "blk00000017" with "112" loads has been replicated "1" time(s) due to a soft fanout limit of "100" 
+@N: FX103 :|Instance "blk000006a0" with "128" loads has been replicated "1" time(s) due to a soft fanout limit of "100" 
+@N: FX103 :|Instance "blk00000db8" with "128" loads has been replicated "1" time(s) due to a soft fanout limit of "100" 
+@N: FX103 :|Instance "blk00001451" with "128" loads has been replicated "1" time(s) due to a soft fanout limit of "100" 
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+@N: FX623 |Packing into LUT62
+@N: BN362 :|Removing sequential instance blk00000021 of view:UNILIB.FD(PRIM) in hierarchy view:nco_lib.nco(_view_1_compressed) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk0000230a of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk0000230b of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk0000230c of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk000022e0 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk000022e4 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk000022e7 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00001beb of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00001be8 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00001b68 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: BN362 :|Removing sequential instance blk00000db7 of view:UNILIB.FDE(PRIM) in hierarchy view:locklpf_lib.locklpf_fir_compiler_v5_0_xst_1_c_da_fir_v9_0_xst_blk00000004(view_1) because there are no references to its outputs 
+@N: MT535 |Writing timing correlation to file D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\work\SquareLoop_ctd.txt 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

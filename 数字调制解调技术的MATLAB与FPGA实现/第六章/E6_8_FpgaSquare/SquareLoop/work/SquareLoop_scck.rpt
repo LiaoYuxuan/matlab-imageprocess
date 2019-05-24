@@ -1,0 +1,28 @@
+# Synospys Constraint Checker(syntax only), version maprc, Build 1495R, built Mar  1 2013
+# Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+# Written on Mon May 22 17:32:24 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "SquareLoop"
+Constraint File(s):      "D:\ModemPrograms\Chapter_6\E6_8_FpgaSquare\SquareLoop\work\SquareLoop.sdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start              Requested     Requested     Clock        Clock              
+Clock              Frequency     Period        Type         Group              
+-------------------------------------------------------------------------------
+SquareLoop|clk     1.0 MHz       1000.000      inferred     Inferred_clkgroup_0
+===============================================================================

@@ -1,0 +1,73 @@
+#--  Synopsys, Inc.
+#--  Version H-2013.03
+#--  Project file D:\ModemPrograms\Chapter_6\E6_6_FpgaMskMod\MskMod\remote_sources\work\run_options.txt
+#--  Written on Mon May 22 12:32:04 2017
+
+
+#project files
+add_file -vhdl -lib work "../../ipcore_dir/dds250k.vhd"
+add_file -vhdl -lib work "../../ipcore_dir/dds3m.vhd"
+add_file -vhdl -lib work "../../ipcore_dir/mult8_8.vhd"
+add_file -xilinx "../../ipcore_dir/mult8_8.ngc"
+add_file -xilinx "../../ipcore_dir/dds3m.ngc"
+add_file -xilinx "../../ipcore_dir/dds250k.ngc"
+add_file -vhdl -lib work "../../CodeProduce.vhd"
+add_file -vhdl -lib work "../../MskMod.vhd"
+add_file -constraint "D:/ModemPrograms/Chapter_6/E6_6_FpgaMskMod/MskMod/remote_sources/work/MskMod.sdc"
+
+
+#implementation: "work"
+impl -add work -type fpga
+
+#
+#implementation attributes
+
+set_option -num_critical_paths 0
+set_option -num_startend_points 0
+
+#device options
+set_option -technology SPARTAN6
+set_option -part XC6SLX16
+set_option -package ftg256
+set_option -speed_grade -2
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "MskMod"
+
+# mapper_options
+set_option -frequency 1
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# xilinx_options
+set_option -RWCheckOnRam 1
+
+# Xilinx Spartan3
+set_option -run_prop_extract 1
+set_option -maxfan 100
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -no_sequential_opt 0
+
+# Xilinx Spartan6
+set_option -enable_prepacking 1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 1
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./MskMod.edn"
+impl -active "work"

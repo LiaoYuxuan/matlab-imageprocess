@@ -1,0 +1,15 @@
+# Output products list for <dds3m>
+_xmsgs\pn_parser.xmsgs
+dds3m.asy
+dds3m.gise
+dds3m.ngc
+dds3m.sym
+dds3m.vhd
+dds3m.vho
+dds3m.xco
+dds3m.xise
+dds3m\doc\dds_compiler_v4_0_vinfo.html
+dds3m\doc\dds_ds558.pdf
+dds3m_flist.txt
+dds3m_readme.txt
+dds3m_xmdf.tcl
